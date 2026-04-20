@@ -1,0 +1,2276 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "bigarea-geotecnologias",
+        "label": "Geotecnologias",
+        "type": "big_area"
+      }
+    },
+    {
+      "data": {
+        "id": "bigarea-inteligncia-artificial",
+        "label": "Inteligência Artificial",
+        "type": "big_area"
+      }
+    },
+    {
+      "data": {
+        "id": "bigarea-ferramentas-de-suporte-tomada-de-deciso",
+        "label": "Ferramentas de Suporte à Tomada de Decisão",
+        "type": "big_area"
+      }
+    },
+    {
+      "data": {
+        "id": "bigarea-sensoriamento-remoto",
+        "label": "Sensoriamento Remoto",
+        "type": "big_area"
+      }
+    },
+    {
+      "data": {
+        "id": "bigarea-abordagens-institucionais",
+        "label": "Abordagens Institucionais",
+        "type": "big_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term-ahp",
+        "label": "AHP",
+        "type": "term",
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+      }
+    },
+    {
+      "data": {
+        "id": "term-bayesian-models",
+        "label": "Bayesian Models",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-big-data-analytics",
+        "label": "Big Data Analytics",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-cnn",
+        "label": "CNN",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-centralized-databases",
+        "label": "Centralized Databases",
+        "type": "term",
+        "bigArea": "Abordagens Institucionais"
+      }
+    },
+    {
+      "data": {
+        "id": "term-computational-social-science",
+        "label": "Computational Social Science",
+        "type": "term",
+        "bigArea": "Abordagens Institucionais"
+      }
+    },
+    {
+      "data": {
+        "id": "term-dna-metabarcoding",
+        "label": "DNA Metabarcoding",
+        "type": "term",
+        "bigArea": "Sensoriamento Remoto"
+      }
+    },
+    {
+      "data": {
+        "id": "term-decision-support-systems",
+        "label": "Decision Support Systems",
+        "type": "term",
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+      }
+    },
+    {
+      "data": {
+        "id": "term-deep-learning",
+        "label": "Deep Learning",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-digital-twin",
+        "label": "Digital Twin",
+        "type": "term",
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+      }
+    },
+    {
+      "data": {
+        "id": "term-drone",
+        "label": "Drone",
+        "type": "term",
+        "bigArea": "Sensoriamento Remoto"
+      }
+    },
+    {
+      "data": {
+        "id": "term-esri-storymaps",
+        "label": "ESRI StoryMaps",
+        "type": "term",
+        "bigArea": "Geotecnologias"
+      }
+    },
+    {
+      "data": {
+        "id": "term-evi",
+        "label": "EVI",
+        "type": "term",
+        "bigArea": "Sensoriamento Remoto"
+      }
+    },
+    {
+      "data": {
+        "id": "term-environmental-licensing",
+        "label": "Environmental Licensing",
+        "type": "term",
+        "bigArea": "Abordagens Institucionais"
+      }
+    },
+    {
+      "data": {
+        "id": "term-folium",
+        "label": "Folium",
+        "type": "term",
+        "bigArea": "Geotecnologias"
+      }
+    },
+    {
+      "data": {
+        "id": "term-fuzzy-logic",
+        "label": "Fuzzy Logic",
+        "type": "term",
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+      }
+    },
+    {
+      "data": {
+        "id": "term-gis",
+        "label": "GIS",
+        "type": "term",
+        "bigArea": "Geotecnologias"
+      }
+    },
+    {
+      "data": {
+        "id": "term-grnn",
+        "label": "GRNN",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-geojson",
+        "label": "GeoJSON",
+        "type": "term",
+        "bigArea": "Geotecnologias"
+      }
+    },
+    {
+      "data": {
+        "id": "term-glove",
+        "label": "GloVe",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-grey-relational-analysis",
+        "label": "Grey Relational Analysis",
+        "type": "term",
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+      }
+    },
+    {
+      "data": {
+        "id": "term-hyperspectral-sensors",
+        "label": "Hyperspectral Sensors",
+        "type": "term",
+        "bigArea": "Sensoriamento Remoto"
+      }
+    },
+    {
+      "data": {
+        "id": "term-lstm",
+        "label": "LSTM",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-landsat",
+        "label": "Landsat",
+        "type": "term",
+        "bigArea": "Sensoriamento Remoto"
+      }
+    },
+    {
+      "data": {
+        "id": "term-lidar",
+        "label": "LiDAR",
+        "type": "term",
+        "bigArea": "Sensoriamento Remoto"
+      }
+    },
+    {
+      "data": {
+        "id": "term-linear-classification",
+        "label": "Linear Classification",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-linknet",
+        "label": "LinkNet",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-manet",
+        "label": "MAnet",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-mcda",
+        "label": "MCDA",
+        "type": "term",
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+      }
+    },
+    {
+      "data": {
+        "id": "term-machine-learning",
+        "label": "Machine Learning",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-nirs",
+        "label": "NIRS",
+        "type": "term",
+        "bigArea": "Sensoriamento Remoto"
+      }
+    },
+    {
+      "data": {
+        "id": "term-natural-language-processing",
+        "label": "Natural Language Processing",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-particle-swarm-optimization",
+        "label": "Particle Swarm Optimization",
+        "type": "term",
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+      }
+    },
+    {
+      "data": {
+        "id": "term-principal-component-analysis",
+        "label": "Principal Component Analysis",
+        "type": "term",
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+      }
+    },
+    {
+      "data": {
+        "id": "term-public-participation",
+        "label": "Public Participation",
+        "type": "term",
+        "bigArea": "Abordagens Institucionais"
+      }
+    },
+    {
+      "data": {
+        "id": "term-q-learning",
+        "label": "Q-Learning",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-qgis",
+        "label": "QGIS",
+        "type": "term",
+        "bigArea": "Geotecnologias"
+      }
+    },
+    {
+      "data": {
+        "id": "term-quickbird",
+        "label": "QuickBird",
+        "type": "term",
+        "bigArea": "Sensoriamento Remoto"
+      }
+    },
+    {
+      "data": {
+        "id": "term-ro-rsei",
+        "label": "RO-RSEI",
+        "type": "term",
+        "bigArea": "Sensoriamento Remoto"
+      }
+    },
+    {
+      "data": {
+        "id": "term-random-forest",
+        "label": "Random Forest",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-rapid-impact-assessment-matrix",
+        "label": "Rapid Impact Assessment Matrix",
+        "type": "term",
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+      }
+    },
+    {
+      "data": {
+        "id": "term-remote-sensing",
+        "label": "Remote Sensing",
+        "type": "term",
+        "bigArea": "Sensoriamento Remoto"
+      }
+    },
+    {
+      "data": {
+        "id": "term-som",
+        "label": "SOM",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-svm",
+        "label": "SVM",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-svr",
+        "label": "SVR",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-saliency-maps",
+        "label": "Saliency Maps",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-strategic-environmental-assessment",
+        "label": "Strategic Environmental Assessment",
+        "type": "term",
+        "bigArea": "Abordagens Institucionais"
+      }
+    },
+    {
+      "data": {
+        "id": "term-sustainable-chemistry",
+        "label": "Sustainable Chemistry",
+        "type": "term",
+        "bigArea": "Abordagens Institucionais"
+      }
+    },
+    {
+      "data": {
+        "id": "term-transformers",
+        "label": "Transformers",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-u-net",
+        "label": "U-Net",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-u-net-plus-plus",
+        "label": "U-Net++",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-var",
+        "label": "VAR",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-web-gis",
+        "label": "Web GIS",
+        "type": "term",
+        "bigArea": "Geotecnologias"
+      }
+    },
+    {
+      "data": {
+        "id": "term-xgboost",
+        "label": "XGBoost",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "term-yolo",
+        "label": "YOLO",
+        "type": "term",
+        "bigArea": "Inteligência Artificial"
+      }
+    },
+    {
+      "data": {
+        "id": "article-01",
+        "label": "Artigo 1",
+        "type": "article",
+        "shortTitle": "Multi-modal Stacked VAR-LSTM",
+        "fullTitle": "Strategizing Low Carbon Urban Planning Through Environmental Impact Assessment by Artificial Intelligence Driven Carbon Footprint",
+        "originalTechnology": "Vector Autoregression (VAR) + LSTM",
+        "application": "Previsão de pegada de carbono em projetos urbanos",
+        "context": "Planejamento urbano de baixo carbono em Da Nang, Vietnã",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Ayasrah et al., 2024"
+      }
+    },
+    {
+      "data": {
+        "id": "article-02",
+        "label": "Artigo 2",
+        "type": "article",
+        "shortTitle": "Earthwork Volume Index (EVI) e Random Forest",
+        "fullTitle": "Evaluating thresholds: the impact of terrain modifications on landslide susceptibility in a mountainous city",
+        "originalTechnology": "EVI + Random Forest",
+        "application": "Quantificação de alterações no terreno e suscetibilidade a deslizamentos",
+        "context": "Planejamento urbano e gestão de riscos de desastres em Busan, Coreia do Sul",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Heo et al., 2025"
+      }
+    },
+    {
+      "data": {
+        "id": "article-03",
+        "label": "Artigo 3",
+        "type": "article",
+        "shortTitle": "Ensemble Machine Learning (RF-ANN) e GIS",
+        "fullTitle": "Developing vehicular traffic noise prediction model through ensemble machine learning algorithms with GIS",
+        "originalTechnology": "Random Forest + Redes Neurais Artificiais + GIS",
+        "application": "Previsão e mapeamento de ruído de tráfego veicular",
+        "context": "Avaliação de impacto acústico em infraestrutura urbana (Malásia)",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Ahmed et al., 2021"
+      }
+    },
+    {
+      "data": {
+        "id": "article-04",
+        "label": "Artigo 4",
+        "type": "article",
+        "shortTitle": "PLN com Redes Neurais Profundas (DNNs)",
+        "fullTitle": "Neural natural language processing for long texts: A survey on classification and summarization",
+        "originalTechnology": "Processamento de Linguagem Natural + Deep Neural Networks",
+        "application": "Análise automatizada de relatórios de impacto ambiental",
+        "context": "Automação de análise de RIAs, estudos técnicos e pareceres",
+        "applicationArea": "Interpretação de Dados",
+        "reference": "Tsirmpas et al., 2024"
+      }
+    },
+    {
+      "data": {
+        "id": "article-05",
+        "label": "Artigo 5",
+        "type": "article",
+        "shortTitle": "Análise de Dados de Mídias Sociais (Instagram)",
+        "fullTitle": "Social media and social impact assessment: Evolving methods in a shifting context",
+        "originalTechnology": "Ciência Social Computacional + IA/ML",
+        "application": "Análise de percepções e valores públicos sobre projetos",
+        "context": "Participação pública em projetos de desenvolvimento (Canadá)",
+        "applicationArea": "Participação Pública",
+        "reference": "Sherren et al., 2024"
+      }
+    },
+    {
+      "data": {
+        "id": "article-06",
+        "label": "Artigo 6",
+        "type": "article",
+        "shortTitle": "PLN e Redes Neurais Artificiais (RNA)",
+        "fullTitle": "NEPA and National Trends in Federal Infrastructure Siting in the United States",
+        "originalTechnology": "PLN + Redes Neurais + Word Embeddings (GloVe)",
+        "application": "Análise de documentos de AIA e classificação de impactos",
+        "context": "Análise de EISs federais de 2013-2019 (Estados Unidos)",
+        "applicationArea": "Interpretação de Dados",
+        "reference": "Scott et al., 2020"
+      }
+    },
+    {
+      "data": {
+        "id": "article-07",
+        "label": "Artigo 7",
+        "type": "article",
+        "shortTitle": "AuxTransUNet - Framework Híbrido CNN + Transformers",
+        "fullTitle": "AuxTransUNet: Enhancing Remote Sensing Image Segmentation of Open-Pit Mining Areas in Qinghai–Tibet Plateau",
+        "originalTechnology": "Redes Neurais Convolucionais + Transformers",
+        "application": "Segmentação de áreas de mineração a céu aberto",
+        "context": "Monitoramento ambiental em larga escala (Planalto Qinghai-Tibete)",
+        "applicationArea": "Coleta de Dados",
+        "reference": "Hong et al., 2025"
+      }
+    },
+    {
+      "data": {
+        "id": "article-08",
+        "label": "Artigo 8",
+        "type": "article",
+        "shortTitle": "Aprendizado de Máquina Supervisionado",
+        "fullTitle": "A supervised machine learning approach to discriminate the effect of carcass leachate on shallow groundwater quality around on-farm livestock mortality burial sites",
+        "originalTechnology": "Classificação Linear + Machine Learning",
+        "application": "Detecção de contaminação de água subterrânea por lixiviados",
+        "context": "Diagnóstico de contaminação em poços de monitoramento (Coreia do Sul)",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Oh et al., 2023"
+      }
+    },
+    {
+      "data": {
+        "id": "article-09",
+        "label": "Artigo 9",
+        "type": "article",
+        "shortTitle": "Machine Learning e Deep Learning",
+        "fullTitle": "Combining deep learning and machine learning techniques to track air pollution in relation to vegetation cover utilizing remotely sensed data",
+        "originalTechnology": "XGB, SVM, RF + Unet, Unet++, MAnet, Linknet",
+        "application": "Análise de poluição do ar e cobertura vegetal",
+        "context": "Planejamento urbano e gestão da poluição (Dhaka, Bangladesh)",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Rahaman et al., 2025"
+      }
+    },
+    {
+      "data": {
+        "id": "article-10",
+        "label": "Artigo 10",
+        "type": "article",
+        "shortTitle": "YOLO e LSTM",
+        "fullTitle": "Ocean carbon emission prediction and management measures based on artificial intelligence remote sensing estimation in the context of carbon neutrality",
+        "originalTechnology": "You Only Look Once + Long Short-Term Memory",
+        "application": "Detecção de navios e previsão de emissões de carbono",
+        "context": "Monitoramento ambiental marinho e neutralidade de carbono",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Wang et al., 2024"
+      }
+    },
+    {
+      "data": {
+        "id": "article-11",
+        "label": "Artigo 11",
+        "type": "article",
+        "shortTitle": "Modelo Transformer e Mapas de Saliência",
+        "fullTitle": "Trusted artificial intelligence for environmental assessments: An explainable high-precision model with multi-source big data",
+        "originalTechnology": "Transformer + Mapas de Saliência",
+        "application": "Avaliações ambientais com explicabilidade",
+        "context": "Identificação de indicadores ambientais mais influentes",
+        "applicationArea": "Interpretação de Dados",
+        "reference": "Xu et al., 2024"
+      }
+    },
+    {
+      "data": {
+        "id": "article-12",
+        "label": "Artigo 12",
+        "type": "article",
+        "shortTitle": "Redes Bayesianas",
+        "fullTitle": "Increased Use of Bayesian Network Models Has Improved Environmental Risk Assessments",
+        "originalTechnology": "Modelos Probabilísticos Bayesianos",
+        "application": "Análise de risco e incerteza em AIA",
+        "context": "Modelagem de cenários complexos e relações de causa-efeito",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Moe et al., 2020"
+      }
+    },
+    {
+      "data": {
+        "id": "article-13",
+        "label": "Artigo 13",
+        "type": "article",
+        "shortTitle": "Aprendizado de Máquina e Deep Learning (Poluição do Ar)",
+        "fullTitle": "Combining deep learning and machine learning techniques to track air pollution in relation to vegetation cover utilizing remotely sensed data",
+        "originalTechnology": "ML e DL combinados",
+        "application": "Rastreamento de degradação de vegetação e poluição do ar",
+        "context": "Gestão ambiental urbana com dados de sensoriamento remoto",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Rahaman et al., 2025"
+      }
+    },
+    {
+      "data": {
+        "id": "article-14",
+        "label": "Artigo 14",
+        "type": "article",
+        "shortTitle": "Ciência de Dados, Big Data e Machine Learning",
+        "fullTitle": "Can data science achieve the ideal of evidence-based decision-making in environmental regulation? ",
+        "originalTechnology": "Big Data Analytics + Machine Learning",
+        "application": "Otimização de processos de AIA e governança ambiental",
+        "context": "Sistema Digital Environmental Impact Assessment (DEIA) na Coreia",
+        "applicationArea": "Gestão de Dados",
+        "reference": "Kim et al., 2024"
+      }
+    },
+    {
+      "data": {
+        "id": "article-15",
+        "label": "Artigo 15",
+        "type": "article",
+        "shortTitle": "Q-learning com Lógica Fuzzy e MOPSO",
+        "fullTitle": "Environmental impact assessment for renewable energy investments through integrated reinforcement learning and molecular fuzzy-based decision-making algorithm",
+        "originalTechnology": "Q-learning + Lógica Fuzzy + Otimização por Enxame de Partículas",
+        "application": "Tomada de decisão em projetos de energia renovável",
+        "context": "Priorização de impactos ambientais em investimentos sustentáveis",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Dinçer et al., 2025"
+      }
+    },
+    {
+      "data": {
+        "id": "article-16",
+        "label": "Artigo 16",
+        "type": "article",
+        "shortTitle": "IA e Machine Learning para Poluição do Solo",
+        "fullTitle": "Artificial intelligence and machine learning in environmental impact prediction for soil pollution management – case for EIA process",
+        "originalTechnology": "ANN, SVR, RT, Random Forest",
+        "application": "Previsão de impacto de poluição do solo",
+        "context": "Gestão ambiental em regiões com escassez de dados (Nigéria)",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Anifowose et al., 2024"
+      }
+    },
+    {
+      "data": {
+        "id": "article-17",
+        "label": "Artigo 17",
+        "type": "article",
+        "shortTitle": "Avaliação de Impacto Ambiental Baseada em Sistemas (SBEIA)",
+        "fullTitle": "System-Based Assessments—Improving the Confidence in the EIA Process",
+        "originalTechnology": "Modelagem + Sensoriamento Remoto + Monitoramento in situ",
+        "application": "Avaliação completa do ciclo de vida dos impactos",
+        "context": "Método que produz valores quantificáveis e reproduzíveis de impacto e risco",
+        "applicationArea": "Coleta de Dados",
+        "reference": "Wilson et al., 2017"
+      }
+    },
+    {
+      "data": {
+        "id": "article-18",
+        "label": "Artigo 18",
+        "type": "article",
+        "shortTitle": "WebGIS e BES Screening Tool (BESST)",
+        "fullTitle": "Development of a WebGIS Tool for Rapid Screening and Visualisation of Biodiversity and Sensitive Areas in the Gulf of Mexico",
+        "originalTechnology": "Sistema de Informação Geográfica baseado em web",
+        "application": "Identificação rápida de áreas sensíveis e valores de biodiversidade",
+        "context": "Suporte à aplicação da Hierarquia de Mitigação",
+        "applicationArea": "Gestão de Dados",
+        "reference": "Pelucchi et al., 2020"
+      }
+    },
+    {
+      "data": {
+        "id": "article-19",
+        "label": "Artigo 19",
+        "type": "article",
+        "shortTitle": "Sensoriamento Remoto, Espectroscopia e Metabarcoding de DNA",
+        "fullTitle": "Environmental impact assessment in Brazilian Amazonia: Challenges and prospects to assess biodiversity",
+        "originalTechnology": "SRS (Landsat, QuickBird) + NIRS + Metabarcoding de DNA",
+        "application": "Identificação de ameaças ambientais e monitoramento de biodiversidade",
+        "context": "Análise de diversidade de espécies sem necessidade de espécimes",
+        "applicationArea": "Coleta de Dados",
+        "reference": "Ritter et al., 2017"
+      }
+    },
+    {
+      "data": {
+        "id": "article-20",
+        "label": "Artigo 20",
+        "type": "article",
+        "shortTitle": "Índice Ecológico de Sensoriamento Remoto Otimizado (RO-RSEI)",
+        "fullTitle": "Research on remote sensing ecological environmental assessment method optimized by regional scale",
+        "originalTechnology": "Aprimoramento RSEI + Teoria de Escala da Ecologia da Paisagem",
+        "application": "Monitoramento e avaliação da qualidade do ambiente ecológico",
+        "context": "Reflexão de mudanças ecológicas reais com fundamentação científica",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Jiang et al., 2021"
+      }
+    },
+    {
+      "data": {
+        "id": "article-21",
+        "label": "Artigo 21",
+        "type": "article",
+        "shortTitle": "Otimização por Enxame de Partículas Multiobjativo (PSO)",
+        "fullTitle": "Study on cascade hydropower alternative schemes based on multi-objective particle swarm optimization algorithm",
+        "originalTechnology": "PSO + Análise de Relação Cinzenta + SIG",
+        "application": "Otimização de esquemas alternativos em planejamento hidrelétrico",
+        "context": "Redução de impactos socioeconômicos e aumento de geração de energia",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Wu et al., 2019"
+      }
+    },
+    {
+      "data": {
+        "id": "article-22",
+        "label": "Artigo 22",
+        "type": "article",
+        "shortTitle": "Pós-processamento de Dados GIS com Python e QGIS",
+        "fullTitle": "The Role of GIS Data Post-Processing in the Environmental Assessment: The Case of Umbria, Italy",
+        "originalTechnology": "Python + QGIS + GeoJSON + Folium",
+        "application": "Análise territorial e avaliação de alternativas de projeto",
+        "context": "Suporte à tomada de decisão com múltiplas variáveis ambientais",
+        "applicationArea": "Gestão de Dados",
+        "reference": "Placidi et al., 2024"
+      }
+    },
+    {
+      "data": {
+        "id": "article-23",
+        "label": "Artigo 23",
+        "type": "article",
+        "shortTitle": "MADM-Q (Multi-Attribute Decision Making - Quantitative)",
+        "fullTitle": "MADM-Q, an efficient multi-attribute decision-making support system for offshore decommissioning",
+        "originalTechnology": "Sistema de Suporte à Decisão Multi-atributo",
+        "application": "Avaliação quantitativa de impactos em descomissionamento offshore",
+        "context": "Módulos ECES, HADES, CIES para análise integrada",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Li et al., 2023"
+      }
+    },
+    {
+      "data": {
+        "id": "article-24",
+        "label": "Artigo 24",
+        "type": "article",
+        "shortTitle": "Digital Twin",
+        "fullTitle": "Environmental management using a digital twin",
+        "originalTechnology": "Representação Digital + Simulação + IA",
+        "application": "Síntese de dados de monitoramento ambiental e cenários futuros",
+        "context": "Comunicação de descobertas aos tomadores de decisão",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Durden, 2025"
+      }
+    },
+    {
+      "data": {
+        "id": "article-25",
+        "label": "Artigo 25",
+        "type": "article",
+        "shortTitle": "Sistema de Suporte à Decisão Espacial (SDSS) com IA",
+        "fullTitle": "Design and development of a generic spatial decision support system, based on artificial intelligence and multicriteria decision analysis",
+        "originalTechnology": "IA + MCDA + AHP + SOM + RIAM + GRNN",
+        "application": "Tomada de decisões em problemas espaciais complexos",
+        "context": "Seleção de locais, avaliação de impacto e descoberta de conhecimento",
+        "applicationArea": "Gestão de Dados",
+        "reference": "Irfan et al., 2017"
+      }
+    },
+    {
+      "data": {
+        "id": "article-26",
+        "label": "Artigo 26",
+        "type": "article",
+        "shortTitle": "Environmental Sensitivity Mapping (ESM) web tool",
+        "fullTitle": "Designing and Developing a Web Tool to Support Strategic Environmental Assessment",
+        "originalTechnology": "SIG + Geoprocessamento online + Abordagem multicriterio",
+        "application": "Avaliação Ambiental Estratégica (AAE)",
+        "context": "Identificação e caracterização de impactos potenciais",
+        "applicationArea": "Gestão de Dados",
+        "reference": "González et al., 2018"
+      }
+    },
+    {
+      "data": {
+        "id": "article-27",
+        "label": "Artigo 27",
+        "type": "article",
+        "shortTitle": "AIRO Webtool - ESM Widget",
+        "fullTitle": "Mapping environmental sensitivity: A systematic online approach to support environmental assessment and planning",
+        "originalTechnology": "Widget de geoprocessamento online + SIG",
+        "application": "Definição espacial de características e terras sensíveis",
+        "context": "Base para discussões de planejamento setorial em AAE",
+        "applicationArea": "Gestão de Dados",
+        "reference": "González Del Campo et al., 2017"
+      }
+    },
+    {
+      "data": {
+        "id": "article-28",
+        "label": "Artigo 28",
+        "type": "article",
+        "shortTitle": "Relatórios Digitais Interativos para AIA",
+        "fullTitle": "Digital environmental impact assessment: An exploration of emerging digital approaches for non-technical reports",
+        "originalTechnology": "ESRI StoryMaps + Soluções web personalizadas",
+        "application": "Comunicação de resultados de AIA ao público não técnico",
+        "context": "Promoção de participação pública e transparência",
+        "applicationArea": "Participação Pública",
+        "reference": "Northmore et al., 2022"
+      }
+    },
+    {
+      "data": {
+        "id": "article-29",
+        "label": "Artigo 29",
+        "type": "article",
+        "shortTitle": "Ferramentas Tecnológicas para Desenvolvimento Sustentável",
+        "fullTitle": "Technological tools for sustainable development in developing countries: The example of Africa, a review",
+        "originalTechnology": "AAE + AIA + Química Sustentável + RIAM",
+        "application": "Aceleração de agendas de desenvolvimento sustentável",
+        "context": "Minimização de impactos negativos em projetos",
+        "applicationArea": "Análise Preditiva",
+        "reference": "Omwoma et al., 2017"
+      }
+    },
+    {
+      "data": {
+        "id": "article-30",
+        "label": "Artigo 30",
+        "type": "article",
+        "shortTitle": "Participação Pública no Licenciamento Ambiental",
+        "fullTitle": "Public participation in environmental permitting: the Finnish approach and its effects",
+        "originalTechnology": "Processo Democrático Digital",
+        "application": "Garantia de legitimidade e transparência em AIA",
+        "context": "Identificação e resolução de conflitos ambientais",
+        "applicationArea": "Participação Pública",
+        "reference": "Jiang et al., 2015"
+      }
+    },
+    {
+      "data": {
+        "id": "article-31",
+        "label": "Artigo 31",
+        "type": "article",
+        "shortTitle": "Sensoriamento Remoto Aéreo com Drone, Hiperspectral e LiDAR + IA",
+        "fullTitle": "Remote sensing reveals unprecedented sublethal impacts of a 40-year-old oil spill on mangroves",
+        "originalTechnology": "Drone + Sensores Hiperespectrais + LiDAR + Redes Neurais",
+        "application": "Avaliação detalhada de impactos em ecossistemas",
+        "context": "Monitoramento de larga escala com sensoriamento remoto avançado",
+        "applicationArea": "Coleta de Dados",
+        "reference": "Lassalle et al., 2023"
+      }
+    },
+    {
+      "data": {
+        "id": "article-32",
+        "label": "Artigo 32",
+        "type": "article",
+        "shortTitle": "Inteligência Artificial para Simplificação de AIA",
+        "fullTitle": "What would environmental impact assessment look like if we started from scratch today? Designing better EIA for developed neoliberal nations",
+        "originalTechnology": "IA + Bancos de Dados Centralizados",
+        "application": "Simplificação de processos de AIA",
+        "context": "Tomada de decisão mais rápida e informada com validação centralizada",
+        "applicationArea": "Gestão de Dados",
+        "reference": "Bond et al., 2024"
+      }
+    },
+    {
+      "data": {
+        "id": "apparea-anlise-preditiva",
+        "label": "Análise Preditiva",
+        "type": "application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "apparea-coleta-de-dados",
+        "label": "Coleta de Dados",
+        "type": "application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "apparea-gesto-de-dados",
+        "label": "Gestão de Dados",
+        "type": "application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "apparea-interpretao-de-dados",
+        "label": "Interpretação de Dados",
+        "type": "application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "apparea-participao-pblica",
+        "label": "Participação Pública",
+        "type": "application_area"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-ferramentas-de-suporte-tomada-de-deciso:term-ahp",
+        "source": "bigarea-ferramentas-de-suporte-tomada-de-deciso",
+        "target": "term-ahp",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-bayesian-models",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-bayesian-models",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-big-data-analytics",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-big-data-analytics",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-abordagens-institucionais:term-centralized-databases",
+        "source": "bigarea-abordagens-institucionais",
+        "target": "term-centralized-databases",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-cnn",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-cnn",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-abordagens-institucionais:term-computational-social-science",
+        "source": "bigarea-abordagens-institucionais",
+        "target": "term-computational-social-science",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-ferramentas-de-suporte-tomada-de-deciso:term-decision-support-systems",
+        "source": "bigarea-ferramentas-de-suporte-tomada-de-deciso",
+        "target": "term-decision-support-systems",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-ferramentas-de-suporte-tomada-de-deciso:term-digital-twin",
+        "source": "bigarea-ferramentas-de-suporte-tomada-de-deciso",
+        "target": "term-digital-twin",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-sensoriamento-remoto:term-dna-metabarcoding",
+        "source": "bigarea-sensoriamento-remoto",
+        "target": "term-dna-metabarcoding",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-deep-learning",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-deep-learning",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-sensoriamento-remoto:term-drone",
+        "source": "bigarea-sensoriamento-remoto",
+        "target": "term-drone",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-abordagens-institucionais:term-environmental-licensing",
+        "source": "bigarea-abordagens-institucionais",
+        "target": "term-environmental-licensing",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-geotecnologias:term-esri-storymaps",
+        "source": "bigarea-geotecnologias",
+        "target": "term-esri-storymaps",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-sensoriamento-remoto:term-evi",
+        "source": "bigarea-sensoriamento-remoto",
+        "target": "term-evi",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-geotecnologias:term-folium",
+        "source": "bigarea-geotecnologias",
+        "target": "term-folium",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-ferramentas-de-suporte-tomada-de-deciso:term-fuzzy-logic",
+        "source": "bigarea-ferramentas-de-suporte-tomada-de-deciso",
+        "target": "term-fuzzy-logic",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-geotecnologias:term-geojson",
+        "source": "bigarea-geotecnologias",
+        "target": "term-geojson",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-geotecnologias:term-gis",
+        "source": "bigarea-geotecnologias",
+        "target": "term-gis",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-glove",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-glove",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-grnn",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-grnn",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-ferramentas-de-suporte-tomada-de-deciso:term-grey-relational-analysis",
+        "source": "bigarea-ferramentas-de-suporte-tomada-de-deciso",
+        "target": "term-grey-relational-analysis",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-sensoriamento-remoto:term-hyperspectral-sensors",
+        "source": "bigarea-sensoriamento-remoto",
+        "target": "term-hyperspectral-sensors",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-sensoriamento-remoto:term-landsat",
+        "source": "bigarea-sensoriamento-remoto",
+        "target": "term-landsat",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-sensoriamento-remoto:term-lidar",
+        "source": "bigarea-sensoriamento-remoto",
+        "target": "term-lidar",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-linear-classification",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-linear-classification",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-linknet",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-linknet",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-lstm",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-lstm",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-machine-learning",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-machine-learning",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-ferramentas-de-suporte-tomada-de-deciso:term-mcda",
+        "source": "bigarea-ferramentas-de-suporte-tomada-de-deciso",
+        "target": "term-mcda",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-manet",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-manet",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-natural-language-processing",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-natural-language-processing",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-sensoriamento-remoto:term-nirs",
+        "source": "bigarea-sensoriamento-remoto",
+        "target": "term-nirs",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-ferramentas-de-suporte-tomada-de-deciso:term-particle-swarm-optimization",
+        "source": "bigarea-ferramentas-de-suporte-tomada-de-deciso",
+        "target": "term-particle-swarm-optimization",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-ferramentas-de-suporte-tomada-de-deciso:term-principal-component-analysis",
+        "source": "bigarea-ferramentas-de-suporte-tomada-de-deciso",
+        "target": "term-principal-component-analysis",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-abordagens-institucionais:term-public-participation",
+        "source": "bigarea-abordagens-institucionais",
+        "target": "term-public-participation",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-q-learning",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-q-learning",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-geotecnologias:term-qgis",
+        "source": "bigarea-geotecnologias",
+        "target": "term-qgis",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-sensoriamento-remoto:term-quickbird",
+        "source": "bigarea-sensoriamento-remoto",
+        "target": "term-quickbird",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-random-forest",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-random-forest",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-ferramentas-de-suporte-tomada-de-deciso:term-rapid-impact-assessment-matrix",
+        "source": "bigarea-ferramentas-de-suporte-tomada-de-deciso",
+        "target": "term-rapid-impact-assessment-matrix",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-sensoriamento-remoto:term-remote-sensing",
+        "source": "bigarea-sensoriamento-remoto",
+        "target": "term-remote-sensing",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-sensoriamento-remoto:term-ro-rsei",
+        "source": "bigarea-sensoriamento-remoto",
+        "target": "term-ro-rsei",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-saliency-maps",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-saliency-maps",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-som",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-som",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-abordagens-institucionais:term-strategic-environmental-assessment",
+        "source": "bigarea-abordagens-institucionais",
+        "target": "term-strategic-environmental-assessment",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-abordagens-institucionais:term-sustainable-chemistry",
+        "source": "bigarea-abordagens-institucionais",
+        "target": "term-sustainable-chemistry",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-svm",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-svm",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-svr",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-svr",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-transformers",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-transformers",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-u-net",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-u-net",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-u-net-plus-plus",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-u-net-plus-plus",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-var",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-var",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-geotecnologias:term-web-gis",
+        "source": "bigarea-geotecnologias",
+        "target": "term-web-gis",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-xgboost",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-xgboost",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "big_area_to_term:bigarea-inteligncia-artificial:term-yolo",
+        "source": "bigarea-inteligncia-artificial",
+        "target": "term-yolo",
+        "type": "big_area_to_term"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-var:article-01",
+        "source": "term-var",
+        "target": "article-01",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-lstm:article-01",
+        "source": "term-lstm",
+        "target": "article-01",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-01:apparea-anlise-preditiva",
+        "source": "article-01",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-evi:article-02",
+        "source": "term-evi",
+        "target": "article-02",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-random-forest:article-02",
+        "source": "term-random-forest",
+        "target": "article-02",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-02:apparea-anlise-preditiva",
+        "source": "article-02",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-random-forest:article-03",
+        "source": "term-random-forest",
+        "target": "article-03",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-deep-learning:article-03",
+        "source": "term-deep-learning",
+        "target": "article-03",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-gis:article-03",
+        "source": "term-gis",
+        "target": "article-03",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-03:apparea-anlise-preditiva",
+        "source": "article-03",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-natural-language-processing:article-04",
+        "source": "term-natural-language-processing",
+        "target": "article-04",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-deep-learning:article-04",
+        "source": "term-deep-learning",
+        "target": "article-04",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-04:apparea-interpretao-de-dados",
+        "source": "article-04",
+        "target": "apparea-interpretao-de-dados",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-computational-social-science:article-05",
+        "source": "term-computational-social-science",
+        "target": "article-05",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-machine-learning:article-05",
+        "source": "term-machine-learning",
+        "target": "article-05",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-05:apparea-participao-pblica",
+        "source": "article-05",
+        "target": "apparea-participao-pblica",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-natural-language-processing:article-06",
+        "source": "term-natural-language-processing",
+        "target": "article-06",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-deep-learning:article-06",
+        "source": "term-deep-learning",
+        "target": "article-06",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-glove:article-06",
+        "source": "term-glove",
+        "target": "article-06",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-06:apparea-interpretao-de-dados",
+        "source": "article-06",
+        "target": "apparea-interpretao-de-dados",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-cnn:article-07",
+        "source": "term-cnn",
+        "target": "article-07",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-transformers:article-07",
+        "source": "term-transformers",
+        "target": "article-07",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-07:apparea-coleta-de-dados",
+        "source": "article-07",
+        "target": "apparea-coleta-de-dados",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-linear-classification:article-08",
+        "source": "term-linear-classification",
+        "target": "article-08",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-machine-learning:article-08",
+        "source": "term-machine-learning",
+        "target": "article-08",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-08:apparea-anlise-preditiva",
+        "source": "article-08",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-xgboost:article-09",
+        "source": "term-xgboost",
+        "target": "article-09",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-svm:article-09",
+        "source": "term-svm",
+        "target": "article-09",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-random-forest:article-09",
+        "source": "term-random-forest",
+        "target": "article-09",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-u-net:article-09",
+        "source": "term-u-net",
+        "target": "article-09",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-u-net-plus-plus:article-09",
+        "source": "term-u-net-plus-plus",
+        "target": "article-09",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-manet:article-09",
+        "source": "term-manet",
+        "target": "article-09",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-linknet:article-09",
+        "source": "term-linknet",
+        "target": "article-09",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-09:apparea-anlise-preditiva",
+        "source": "article-09",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-yolo:article-10",
+        "source": "term-yolo",
+        "target": "article-10",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-lstm:article-10",
+        "source": "term-lstm",
+        "target": "article-10",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-10:apparea-anlise-preditiva",
+        "source": "article-10",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-transformers:article-11",
+        "source": "term-transformers",
+        "target": "article-11",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-saliency-maps:article-11",
+        "source": "term-saliency-maps",
+        "target": "article-11",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-11:apparea-interpretao-de-dados",
+        "source": "article-11",
+        "target": "apparea-interpretao-de-dados",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-bayesian-models:article-12",
+        "source": "term-bayesian-models",
+        "target": "article-12",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-12:apparea-anlise-preditiva",
+        "source": "article-12",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-machine-learning:article-13",
+        "source": "term-machine-learning",
+        "target": "article-13",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-deep-learning:article-13",
+        "source": "term-deep-learning",
+        "target": "article-13",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-13:apparea-anlise-preditiva",
+        "source": "article-13",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-big-data-analytics:article-14",
+        "source": "term-big-data-analytics",
+        "target": "article-14",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-machine-learning:article-14",
+        "source": "term-machine-learning",
+        "target": "article-14",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-14:apparea-gesto-de-dados",
+        "source": "article-14",
+        "target": "apparea-gesto-de-dados",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-q-learning:article-15",
+        "source": "term-q-learning",
+        "target": "article-15",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-fuzzy-logic:article-15",
+        "source": "term-fuzzy-logic",
+        "target": "article-15",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-particle-swarm-optimization:article-15",
+        "source": "term-particle-swarm-optimization",
+        "target": "article-15",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-15:apparea-anlise-preditiva",
+        "source": "article-15",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-deep-learning:article-16",
+        "source": "term-deep-learning",
+        "target": "article-16",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-svr:article-16",
+        "source": "term-svr",
+        "target": "article-16",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-random-forest:article-16",
+        "source": "term-random-forest",
+        "target": "article-16",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-16:apparea-anlise-preditiva",
+        "source": "article-16",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-remote-sensing:article-17",
+        "source": "term-remote-sensing",
+        "target": "article-17",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-17:apparea-coleta-de-dados",
+        "source": "article-17",
+        "target": "apparea-coleta-de-dados",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-web-gis:article-18",
+        "source": "term-web-gis",
+        "target": "article-18",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-18:apparea-gesto-de-dados",
+        "source": "article-18",
+        "target": "apparea-gesto-de-dados",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-landsat:article-19",
+        "source": "term-landsat",
+        "target": "article-19",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-quickbird:article-19",
+        "source": "term-quickbird",
+        "target": "article-19",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-nirs:article-19",
+        "source": "term-nirs",
+        "target": "article-19",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-dna-metabarcoding:article-19",
+        "source": "term-dna-metabarcoding",
+        "target": "article-19",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-19:apparea-coleta-de-dados",
+        "source": "article-19",
+        "target": "apparea-coleta-de-dados",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-ro-rsei:article-20",
+        "source": "term-ro-rsei",
+        "target": "article-20",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-principal-component-analysis:article-20",
+        "source": "term-principal-component-analysis",
+        "target": "article-20",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-remote-sensing:article-20",
+        "source": "term-remote-sensing",
+        "target": "article-20",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-20:apparea-anlise-preditiva",
+        "source": "article-20",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-particle-swarm-optimization:article-21",
+        "source": "term-particle-swarm-optimization",
+        "target": "article-21",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-grey-relational-analysis:article-21",
+        "source": "term-grey-relational-analysis",
+        "target": "article-21",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-gis:article-21",
+        "source": "term-gis",
+        "target": "article-21",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-21:apparea-anlise-preditiva",
+        "source": "article-21",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-qgis:article-22",
+        "source": "term-qgis",
+        "target": "article-22",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-geojson:article-22",
+        "source": "term-geojson",
+        "target": "article-22",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-folium:article-22",
+        "source": "term-folium",
+        "target": "article-22",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-22:apparea-gesto-de-dados",
+        "source": "article-22",
+        "target": "apparea-gesto-de-dados",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-decision-support-systems:article-23",
+        "source": "term-decision-support-systems",
+        "target": "article-23",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-23:apparea-anlise-preditiva",
+        "source": "article-23",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-digital-twin:article-24",
+        "source": "term-digital-twin",
+        "target": "article-24",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-24:apparea-anlise-preditiva",
+        "source": "article-24",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-mcda:article-25",
+        "source": "term-mcda",
+        "target": "article-25",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-ahp:article-25",
+        "source": "term-ahp",
+        "target": "article-25",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-som:article-25",
+        "source": "term-som",
+        "target": "article-25",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-rapid-impact-assessment-matrix:article-25",
+        "source": "term-rapid-impact-assessment-matrix",
+        "target": "article-25",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-grnn:article-25",
+        "source": "term-grnn",
+        "target": "article-25",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-25:apparea-gesto-de-dados",
+        "source": "article-25",
+        "target": "apparea-gesto-de-dados",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-gis:article-26",
+        "source": "term-gis",
+        "target": "article-26",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-strategic-environmental-assessment:article-26",
+        "source": "term-strategic-environmental-assessment",
+        "target": "article-26",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-26:apparea-gesto-de-dados",
+        "source": "article-26",
+        "target": "apparea-gesto-de-dados",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-gis:article-27",
+        "source": "term-gis",
+        "target": "article-27",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-strategic-environmental-assessment:article-27",
+        "source": "term-strategic-environmental-assessment",
+        "target": "article-27",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-27:apparea-gesto-de-dados",
+        "source": "article-27",
+        "target": "apparea-gesto-de-dados",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-esri-storymaps:article-28",
+        "source": "term-esri-storymaps",
+        "target": "article-28",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-28:apparea-participao-pblica",
+        "source": "article-28",
+        "target": "apparea-participao-pblica",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-strategic-environmental-assessment:article-29",
+        "source": "term-strategic-environmental-assessment",
+        "target": "article-29",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-rapid-impact-assessment-matrix:article-29",
+        "source": "term-rapid-impact-assessment-matrix",
+        "target": "article-29",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-sustainable-chemistry:article-29",
+        "source": "term-sustainable-chemistry",
+        "target": "article-29",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-29:apparea-anlise-preditiva",
+        "source": "article-29",
+        "target": "apparea-anlise-preditiva",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-public-participation:article-30",
+        "source": "term-public-participation",
+        "target": "article-30",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-environmental-licensing:article-30",
+        "source": "term-environmental-licensing",
+        "target": "article-30",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-30:apparea-participao-pblica",
+        "source": "article-30",
+        "target": "apparea-participao-pblica",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-drone:article-31",
+        "source": "term-drone",
+        "target": "article-31",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-hyperspectral-sensors:article-31",
+        "source": "term-hyperspectral-sensors",
+        "target": "article-31",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-lidar:article-31",
+        "source": "term-lidar",
+        "target": "article-31",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-deep-learning:article-31",
+        "source": "term-deep-learning",
+        "target": "article-31",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-31:apparea-coleta-de-dados",
+        "source": "article-31",
+        "target": "apparea-coleta-de-dados",
+        "type": "article_to_application_area"
+      }
+    },
+    {
+      "data": {
+        "id": "term_to_article:term-centralized-databases:article-32",
+        "source": "term-centralized-databases",
+        "target": "article-32",
+        "type": "term_to_article"
+      }
+    },
+    {
+      "data": {
+        "id": "article_to_application_area:article-32:apparea-gesto-de-dados",
+        "source": "article-32",
+        "target": "apparea-gesto-de-dados",
+        "type": "article_to_application_area"
+      }
+    }
+  ]
+}
