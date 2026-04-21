@@ -1,8 +1,8 @@
 'use client';
 
-import { useEffect, useId, useRef, useState } from 'react';
+import { useEffect, useId, useMemo, useRef, useState } from 'react';
 import type { FormEvent, KeyboardEvent as ReactKeyboardEvent } from 'react';
-import type { GraphPayload, NodeType } from '@/lib/graph/types';
+import type { GraphNode, GraphPayload, NodeType } from '@/lib/graph/types';
 import type { GraphFilter } from '@/lib/graph/graph-lookups';
 import ThemeToggle from '@/components/theme-toggle';
 
@@ -32,6 +32,65 @@ export default function GraphToolbar({
 }: Props) {
   const bigAreas = payload.nodes.filter((n) => n.data.type === 'big_area');
 
+  const [suggestOpen, setSuggestOpen] = useState(false);
+  const [activeSuggestion, setActiveSuggestion] = useState(0);
+  const searchRootRef = useRef<HTMLDivElement>(null);
+
+  const suggestions = useMemo<GraphNode[]>(() => {
+    const q = searchQuery.trim().toLowerCase();
+    if (!q) return [];
+    const out: GraphNode[] = [];
+    for (const { data } of payload.nodes) {
+      const haystack: string[] = [data.label];
+      if (data.type === 'article') {
+        if (data.shortTitle) haystack.push(data.shortTitle);
+        if (data.fullTitle) haystack.push(data.fullTitle);
+      }
+      if (haystack.some((s) => s.toLowerCase().includes(q))) {
+        out.push(data);
+        if (out.length >= 8) break;
+      }
+    }
+    return out;
+  }, [searchQuery, payload]);
+
+  useEffect(() => {
+    setActiveSuggestion(0);
+  }, [searchQuery]);
+
+  useEffect(() => {
+    if (!suggestOpen) return;
+    const onDocDown = (e: MouseEvent) => {
+      if (!searchRootRef.current?.contains(e.target as Node)) setSuggestOpen(false);
+    };
+    document.addEventListener('mousedown', onDocDown);
+    return () => document.removeEventListener('mousedown', onDocDown);
+  }, [suggestOpen]);
+
+  const commitSuggestion = (node: GraphNode) => {
+    onSearchChange(node.label);
+    onSearchSubmit(node.label);
+    setSuggestOpen(false);
+  };
+
+  const handleSearchKey = (e: ReactKeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Escape') {
+      setSuggestOpen(false);
+      return;
+    }
+    if (!suggestOpen || suggestions.length === 0) return;
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      setActiveSuggestion((i) => (i + 1) % suggestions.length);
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      setActiveSuggestion((i) => (i - 1 + suggestions.length) % suggestions.length);
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      commitSuggestion(suggestions[activeSuggestion]);
+    }
+  };
+
   const handleTypeToggle = (type: NodeType) => {
     const next = new Set(filter.types);
     if (next.has(type)) next.delete(type);
@@ -52,7 +111,7 @@ export default function GraphToolbar({
     <div className="relative flex flex-wrap items-center gap-6 border-b border-[var(--border)] bg-[var(--surface)] px-6 py-3 font-mono text-[var(--foreground)]">
 
       <form onSubmit={handleSubmit} className="flex items-center gap-3">
-        <div className="group relative flex items-center">
+        <div ref={searchRootRef} className="group relative flex items-center">
           <svg
             width="13"
             height="13"
@@ -66,10 +125,69 @@ export default function GraphToolbar({
           <input
             type="search"
             value={searchQuery}
-            onChange={(e) => onSearchChange(e.target.value)}
+            onChange={(e) => {
+              onSearchChange(e.target.value);
+              setSuggestOpen(true);
+            }}
+            onFocus={() => setSuggestOpen(true)}
+            onKeyDown={handleSearchKey}
             placeholder="buscar nó"
+            role="combobox"
+            aria-autocomplete="list"
+            aria-expanded={suggestOpen && searchQuery.trim().length > 0}
             className="w-56 border-b border-[var(--border-strong)] bg-transparent py-1.5 pl-5 pr-2 text-[13px] text-[var(--foreground)] placeholder:text-[var(--subtle)] outline-none transition-colors focus:border-[var(--accent)]"
           />
+          {suggestOpen && searchQuery.trim().length > 0 && (
+            <div className="absolute left-0 right-0 top-[calc(100%+6px)] z-50 w-[18rem]">
+              <div className="relative rounded-[3px] border border-[var(--border-strong)] bg-[var(--surface)] shadow-[0_14px_40px_-18px_rgba(0,0,0,0.35)]">
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute inset-x-0 top-0 h-[2px] bg-[var(--accent)]"
+                />
+                {suggestions.length === 0 ? (
+                  <div className="px-3 py-3 font-mono text-[10px] uppercase tracking-[0.2em] text-[var(--subtle)]">
+                    Nenhum resultado encontrado
+                  </div>
+                ) : (
+                  <ul role="listbox" className="max-h-72 overflow-y-auto py-1">
+                    {suggestions.map((node, i) => {
+                      const isActive = i === activeSuggestion;
+                      const cssVar = nodeTypeVar(node.type);
+                      return (
+                        <li
+                          key={node.id}
+                          role="option"
+                          aria-selected={isActive}
+                          onMouseEnter={() => setActiveSuggestion(i)}
+                          onMouseDown={(e) => {
+                            e.preventDefault();
+                            commitSuggestion(node);
+                          }}
+                          className={`flex cursor-pointer items-center gap-3 px-3 py-1.5 transition-colors ${
+                            isActive
+                              ? 'bg-[var(--surface-muted)] text-[var(--foreground)]'
+                              : 'text-[var(--muted-strong)]'
+                          }`}
+                        >
+                          <span
+                            aria-hidden="true"
+                            className="h-2 w-2 shrink-0"
+                            style={{ backgroundColor: cssVar, boxShadow: `0 0 6px ${cssVar}55` }}
+                          />
+                          <span className="flex-1 truncate text-[11px] tracking-[0.02em]">
+                            {node.label}
+                          </span>
+                          <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-[var(--subtle)]">
+                            {nodeTypeShort(node.type)}
+                          </span>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                )}
+              </div>
+            </div>
+          )}
         </div>
         <button
           type="submit"
@@ -156,6 +274,32 @@ export default function GraphToolbar({
       </div>
     </div>
   );
+}
+
+function nodeTypeVar(type: NodeType): string {
+  switch (type) {
+    case 'big_area':
+      return 'var(--node-big-area)';
+    case 'term':
+      return 'var(--node-term)';
+    case 'article':
+      return 'var(--node-article)';
+    case 'application_area':
+      return 'var(--node-application-area)';
+  }
+}
+
+function nodeTypeShort(type: NodeType): string {
+  switch (type) {
+    case 'big_area':
+      return 'área';
+    case 'term':
+      return 'termo';
+    case 'article':
+      return 'artigo';
+    case 'application_area':
+      return 'aia';
+  }
 }
 
 function Divider() {
