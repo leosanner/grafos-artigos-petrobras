@@ -69,6 +69,7 @@ export default function GraphClient() {
           filter={filter}
           searchToken={searchToken}
           onSelect={setSelectedId}
+          onResetFilter={() => setFilter(DEFAULT_FILTER)}
         />
         {selectedId && (
           <div className="absolute right-4 top-4 bottom-4 z-20 w-80 rounded-lg shadow-xl">

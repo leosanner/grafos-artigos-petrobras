@@ -17,6 +17,7 @@ interface Props {
   filter: GraphFilter;
   searchToken: { query: string; seq: number };
   onSelect: (nodeId: string | null) => void;
+  onResetFilter: () => void;
 }
 
 export default function GraphCanvas({
@@ -24,6 +25,7 @@ export default function GraphCanvas({
   filter,
   searchToken,
   onSelect,
+  onResetFilter,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const cyRef = useRef<Core | null>(null);
@@ -144,7 +146,8 @@ export default function GraphCanvas({
     clearHighlight(cy);
     cy.fit(undefined, 30);
     onSelectRef.current(null);
-  }, []);
+    onResetFilter();
+  }, [onResetFilter]);
 
   return (
     <div
