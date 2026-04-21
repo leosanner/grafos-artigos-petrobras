@@ -37,7 +37,7 @@ export default function ThemeToggle() {
       type="button"
       onClick={toggle}
       aria-label={`Ativar tema ${theme === 'dark' ? 'claro' : 'escuro'}`}
-      className="flex h-7 w-7 items-center justify-center rounded-full border border-white/10 text-neutral-400 transition-colors hover:border-amber-400/40 hover:text-amber-400"
+      className="flex h-7 w-7 items-center justify-center rounded-full border border-[var(--border-strong)] text-[var(--muted-strong)] transition-colors hover:border-[var(--brand-yellow)] hover:text-[var(--brand-yellow)]"
     >
       <span className="text-[11px] leading-none">{theme === 'dark' ? '☀' : '☾'}</span>
     </button>

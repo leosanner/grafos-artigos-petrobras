@@ -10,10 +10,10 @@ interface Props {
 }
 
 const TYPE_META: Record<GraphNode['type'], { color: string; label: string }> = {
-  big_area: { color: '#16a34a', label: 'grande área' },
-  term: { color: '#eab308', label: 'termo' },
-  article: { color: '#2563eb', label: 'artigo' },
-  application_area: { color: '#dc2626', label: 'área AIA' },
+  big_area: { color: 'var(--node-big-area)', label: 'grande área' },
+  term: { color: 'var(--node-term)', label: 'termo' },
+  article: { color: 'var(--node-article)', label: 'artigo' },
+  application_area: { color: 'var(--node-application-area)', label: 'área AIA' },
 };
 
 export default function SidePanel({ payload, selectedId, onClose }: Props) {
@@ -27,12 +27,12 @@ export default function SidePanel({ payload, selectedId, onClose }: Props) {
   const meta = TYPE_META[node.type];
 
   return (
-    <aside className="relative flex h-full w-full flex-col overflow-hidden rounded-lg border border-white/10 bg-[#0a0a0b]/92 font-sans text-neutral-200 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.8)] backdrop-blur-md">
+    <aside className="relative flex h-full w-full flex-col overflow-hidden rounded-lg border border-[var(--border-strong)] bg-[var(--surface)]/92 font-sans text-[var(--foreground)] shadow-[0_20px_60px_-20px_rgba(0,0,0,0.35)] backdrop-blur-md">
       <span
         aria-hidden="true"
         className="absolute inset-y-0 left-0 w-[2px]"
         style={{
-          background: `linear-gradient(180deg, ${meta.color} 0%, ${meta.color}20 55%, transparent 100%)`,
+          background: `linear-gradient(180deg, ${meta.color} 0%, color-mix(in srgb, ${meta.color} 12%, transparent) 55%, transparent 100%)`,
         }}
       />
 
@@ -40,7 +40,7 @@ export default function SidePanel({ payload, selectedId, onClose }: Props) {
         type="button"
         onClick={onClose}
         aria-label="Fechar detalhes"
-        className="absolute right-3 top-3 z-10 flex h-6 w-6 items-center justify-center rounded-full border border-white/10 text-neutral-500 transition-colors hover:border-amber-400/40 hover:text-amber-400"
+        className="absolute right-3 top-3 z-10 flex h-6 w-6 items-center justify-center rounded-full border border-[var(--border-strong)] text-[var(--muted)] transition-colors hover:border-[var(--accent-soft)] hover:text-[var(--accent)]"
       >
         <svg width="9" height="9" viewBox="0 0 14 14" aria-hidden="true">
           <path
@@ -62,14 +62,14 @@ export default function SidePanel({ payload, selectedId, onClose }: Props) {
                 boxShadow: `0 0 8px ${meta.color}`,
               }}
             />
-            <span className="font-mono text-[10px] uppercase tracking-[0.24em] text-neutral-500">
+            <span className="font-mono text-[10px] uppercase tracking-[0.24em] text-[var(--muted)]">
               {meta.label}
             </span>
-            <span className="ml-auto font-mono text-[10px] tracking-[0.1em] text-neutral-700">
+            <span className="ml-auto font-mono text-[10px] tracking-[0.1em] text-[var(--subtle)]">
               /{node.id.slice(0, 8)}
             </span>
           </div>
-          <h2 className="text-[17px] font-medium leading-snug tracking-tight text-neutral-50">
+          <h2 className="text-[17px] font-medium leading-snug tracking-tight text-[var(--foreground)]">
             {node.label}
           </h2>
         </header>
@@ -83,7 +83,7 @@ export default function SidePanel({ payload, selectedId, onClose }: Props) {
 }
 
 function Divider() {
-  return <span className="h-px w-full bg-white/[0.06]" aria-hidden="true" />;
+  return <span className="h-px w-full bg-[var(--border)]" aria-hidden="true" />;
 }
 
 function NodeDetails({ node, payload }: { node: GraphNode; payload: GraphPayload }) {
@@ -118,13 +118,13 @@ function NodeDetails({ node, payload }: { node: GraphNode; payload: GraphPayload
           <SectionLabel suffix={articleNodes.length.toString().padStart(2, '0')}>
             artigos
           </SectionLabel>
-          <ul className="flex flex-col divide-y divide-white/[0.05] border-l border-white/[0.06] pl-3">
+          <ul className="flex flex-col divide-y divide-[var(--border)] border-l border-[var(--border)] pl-3">
             {articleNodes.map((a, i) => (
               <li
                 key={a.id}
-                className="flex items-baseline gap-2 py-1.5 text-[13px] leading-snug text-neutral-300"
+                className="flex items-baseline gap-2 py-1.5 text-[13px] leading-snug text-[var(--muted-strong)]"
               >
-                <span className="w-6 shrink-0 font-mono text-[9px] tracking-[0.1em] text-neutral-700">
+                <span className="w-6 shrink-0 font-mono text-[9px] tracking-[0.1em] text-[var(--subtle)]">
                   {(i + 1).toString().padStart(2, '0')}
                 </span>
                 <span>{a.type === 'article' && a.shortTitle ? a.shortTitle : a.label}</span>
@@ -167,10 +167,10 @@ function NodeDetails({ node, payload }: { node: GraphNode; payload: GraphPayload
 function Counter({ label, value }: { label: string; value: number }) {
   return (
     <div className="flex flex-col gap-1">
-      <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-neutral-500">
+      <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-[var(--muted)]">
         {label}
       </span>
-      <span className="font-mono text-2xl leading-none text-neutral-50 tabular-nums">
+      <span className="font-mono text-2xl leading-none text-[var(--foreground)] tabular-nums">
         {value.toString().padStart(2, '0')}
       </span>
     </div>
@@ -186,11 +186,11 @@ function SectionLabel({
 }) {
   return (
     <div className="flex items-center gap-2">
-      <span className="font-mono text-[10px] uppercase tracking-[0.24em] text-neutral-500">
+      <span className="font-mono text-[10px] uppercase tracking-[0.24em] text-[var(--muted)]">
         {children}
       </span>
       {suffix && (
-        <span className="font-mono text-[10px] tracking-[0.1em] text-neutral-700">
+        <span className="font-mono text-[10px] tracking-[0.1em] text-[var(--subtle)]">
           · {suffix}
         </span>
       )}
@@ -201,10 +201,10 @@ function SectionLabel({
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <div className="flex flex-col gap-1.5">
-      <span className="font-mono text-[10px] uppercase tracking-[0.24em] text-neutral-500">
+      <span className="font-mono text-[10px] uppercase tracking-[0.24em] text-[var(--muted)]">
         {label}
       </span>
-      <span className="text-[13px] leading-snug text-neutral-100">{children}</span>
+      <span className="text-[13px] leading-snug text-[var(--foreground)]">{children}</span>
     </div>
   );
 }

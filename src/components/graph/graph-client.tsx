@@ -39,7 +39,7 @@ export default function GraphClient() {
 
   if (error) {
     return (
-      <div className="flex h-full w-full items-center justify-center p-6 text-sm text-red-600">
+      <div className="flex h-full w-full items-center justify-center p-6 text-sm text-[var(--node-application-area)]">
         Erro ao carregar grafo: {error}
       </div>
     );
@@ -47,7 +47,7 @@ export default function GraphClient() {
 
   if (!payload) {
     return (
-      <div className="flex h-full w-full items-center justify-center text-sm text-slate-500">
+      <div className="flex h-full w-full items-center justify-center text-sm text-[var(--muted)]">
         Carregando grafo…
       </div>
     );

@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef } from 'react';
 import cytoscape, { type Core } from 'cytoscape';
 import type { GraphPayload } from '@/lib/graph/types';
-import { graphStylesheet } from '@/lib/graph/cytoscape-style';
+import { buildGraphStylesheet } from '@/lib/graph/cytoscape-style';
 import { applyFuzzyBlobLayout } from '@/lib/graph/cytoscape-layout';
 import { clearHighlight, highlightNeighborhood } from '@/lib/graph/highlight';
 import {
@@ -40,7 +40,7 @@ export default function GraphCanvas({
     const cy = cytoscape({
       container,
       elements: [...payload.nodes, ...payload.edges],
-      style: graphStylesheet,
+      style: buildGraphStylesheet(),
       wheelSensitivity: 0.2,
     });
 
@@ -92,6 +92,19 @@ export default function GraphCanvas({
   }, [payload]);
 
   useEffect(() => {
+    const observer = new MutationObserver(() => {
+      const cy = cyRef.current;
+      if (!cy) return;
+      cy.style(buildGraphStylesheet()).update();
+    });
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class'],
+    });
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
     const cy = cyRef.current;
     if (!cy) return;
     const visible = getVisibleIds(payload, filter);
@@ -134,12 +147,15 @@ export default function GraphCanvas({
   }, []);
 
   return (
-    <div className="relative h-full w-full bg-neutral-900">
+    <div
+      className="relative h-full w-full"
+      style={{ background: 'var(--graph-bg)' }}
+    >
       <div ref={containerRef} className="h-full w-full" />
       <button
         type="button"
         onClick={handleReset}
-        className="group absolute left-4 top-4 flex items-center gap-2 rounded-full border border-white/10 bg-[#0a0a0b]/80 px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.22em] text-neutral-400 backdrop-blur transition-colors hover:border-amber-400/40 hover:text-amber-400"
+        className="group absolute left-4 top-4 flex items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--surface)]/80 px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.22em] text-[var(--muted)] backdrop-blur transition-colors hover:border-[var(--accent-soft)] hover:text-[var(--accent)]"
       >
         <svg width="11" height="11" viewBox="0 0 14 14" aria-hidden="true">
           <path
