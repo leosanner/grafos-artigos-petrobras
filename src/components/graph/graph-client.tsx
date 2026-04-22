@@ -72,7 +72,7 @@ export default function GraphClient() {
           onResetFilter={() => setFilter(DEFAULT_FILTER)}
         />
         {selectedId && (
-          <div className="absolute right-4 top-4 bottom-4 z-20 w-80 rounded-lg shadow-xl">
+          <div className="absolute right-4 top-4 bottom-4 z-20 w-[42rem] max-w-[calc(100%-2rem)] rounded-lg shadow-xl 2xl:w-[46rem]">
             <SidePanel
               payload={payload}
               selectedId={selectedId}
