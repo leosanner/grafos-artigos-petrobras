@@ -35,6 +35,7 @@ export default function GraphToolbar({
   const [suggestOpen, setSuggestOpen] = useState(false);
   const [activeSuggestion, setActiveSuggestion] = useState(0);
   const searchRootRef = useRef<HTMLDivElement>(null);
+  const suggestionListId = useId();
 
   const suggestions = useMemo<GraphNode[]>(() => {
     const q = searchQuery.trim().toLowerCase();
@@ -53,10 +54,6 @@ export default function GraphToolbar({
     }
     return out;
   }, [searchQuery, payload]);
-
-  useEffect(() => {
-    setActiveSuggestion(0);
-  }, [searchQuery]);
 
   useEffect(() => {
     if (!suggestOpen) return;
@@ -127,13 +124,18 @@ export default function GraphToolbar({
             value={searchQuery}
             onChange={(e) => {
               onSearchChange(e.target.value);
+              setActiveSuggestion(0);
               setSuggestOpen(true);
             }}
-            onFocus={() => setSuggestOpen(true)}
+            onFocus={() => {
+              setActiveSuggestion(0);
+              setSuggestOpen(true);
+            }}
             onKeyDown={handleSearchKey}
             placeholder="buscar nó"
             role="combobox"
             aria-autocomplete="list"
+            aria-controls={suggestionListId}
             aria-expanded={suggestOpen && searchQuery.trim().length > 0}
             className="w-56 border-b border-[var(--border-strong)] bg-transparent py-1.5 pl-5 pr-2 text-[13px] text-[var(--foreground)] placeholder:text-[var(--subtle)] outline-none transition-colors focus:border-[var(--accent)]"
           />
@@ -149,7 +151,11 @@ export default function GraphToolbar({
                     Nenhum resultado encontrado
                   </div>
                 ) : (
-                  <ul role="listbox" className="max-h-72 overflow-y-auto py-1">
+                  <ul
+                    id={suggestionListId}
+                    role="listbox"
+                    className="max-h-72 overflow-y-auto py-1"
+                  >
                     {suggestions.map((node, i) => {
                       const isActive = i === activeSuggestion;
                       const cssVar = nodeTypeVar(node.type);
@@ -381,11 +387,6 @@ function AreaSelector({
 
   useEffect(() => {
     if (!open) return;
-    setActiveIndex(selectedIndex);
-  }, [open, selectedIndex]);
-
-  useEffect(() => {
-    if (!open) return;
     const onDocDown = (e: MouseEvent) => {
       if (!rootRef.current?.contains(e.target as Node)) setOpen(false);
     };
@@ -416,6 +417,7 @@ function AreaSelector({
   const handleTriggerKey = (e: ReactKeyboardEvent<HTMLButtonElement>) => {
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
+      setActiveIndex(selectedIndex);
       setOpen(true);
     }
   };
@@ -450,7 +452,13 @@ function AreaSelector({
       <div ref={rootRef} className="relative">
         <button
           type="button"
-          onClick={() => setOpen((v) => !v)}
+          onClick={() =>
+            setOpen((value) => {
+              const next = !value;
+              if (next) setActiveIndex(selectedIndex);
+              return next;
+            })
+          }
           onKeyDown={handleTriggerKey}
           aria-haspopup="listbox"
           aria-expanded={open}
