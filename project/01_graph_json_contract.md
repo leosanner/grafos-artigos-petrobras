@@ -44,6 +44,8 @@ Campos esperados:
 - `label`
 - `type`
 - `bigArea`
+- `description`
+- `reference`
 
 ### article
 Representa um artigo individual.

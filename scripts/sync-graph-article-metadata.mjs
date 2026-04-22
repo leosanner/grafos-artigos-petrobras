@@ -11,6 +11,7 @@ const EXTERNAL_ARTICLES_PATH = path.join(
   'external_data',
   'articles_extended.json',
 );
+const TERMS_PATH = path.join(ROOT_DIR, 'external_data', 'terms_node.json');
 const INSTITUTIONS_PATH = path.join(
   ROOT_DIR,
   'external_data',
@@ -29,24 +30,45 @@ const MANUAL_OVERRIDES = {
 async function main() {
   const graph = await readJson(GRAPH_PATH);
   const externalArticles = await readJson(EXTERNAL_ARTICLES_PATH);
+  const termEntries = await readJson(TERMS_PATH);
   const institutions = await readJson(INSTITUTIONS_PATH);
 
   validateGraph(graph);
+  validateTermEntries(termEntries);
 
   const articleNodes = graph.nodes.filter((node) => node?.data?.type === 'article');
+  const termMetadataIndex = buildTermMetadataIndex(termEntries);
+  validateTermCoverage(graph, termMetadataIndex);
   const relationIndex = buildExternalTitleIndex(externalArticles);
   const relationPairs = articleNodes.map((node) =>
     resolveRelation(node.data, externalArticles, relationIndex),
+  );
+  const relationPairsByArticleId = new Map(
+    relationPairs.map((pair) => [pair.graphArticleId, pair]),
   );
 
   const enrichedGraph = {
     ...graph,
     nodes: graph.nodes.map((node) => {
+      if (node?.data?.type === 'term') {
+        const metadata = termMetadataIndex.get(node.data.label);
+        if (!metadata) {
+          throw new Error(`Missing term metadata for "${node.data.label}"`);
+        }
+
+        return {
+          ...node,
+          data: {
+            ...node.data,
+            description: metadata.description,
+            reference: metadata.reference,
+          },
+        };
+      }
+
       if (node?.data?.type !== 'article') return node;
 
-      const relation = relationPairs.find(
-        (pair) => pair.graphArticleId === node.data.id,
-      );
+      const relation = relationPairsByArticleId.get(node.data.id);
       if (!relation) {
         throw new Error(`Missing relation pair for graph article "${node.data.id}"`);
       }
@@ -81,6 +103,7 @@ async function main() {
   console.log(`Normalized title matches: ${normalizedMatches}`);
   console.log(`Manual override matches: ${manualMatches}`);
   console.log(`Unique external rows used: ${uniqueExternalKeys.size}`);
+  console.log(`Term metadata merged: ${termMetadataIndex.size}`);
   console.log(`Audit file written to: ${path.relative(ROOT_DIR, RELATION_PAIRS_PATH)}`);
   console.log(`Graph file updated: ${path.relative(ROOT_DIR, GRAPH_PATH)}`);
 }
@@ -105,6 +128,67 @@ function buildExternalTitleIndex(externalArticles) {
   }
 
   return index;
+}
+
+function validateTermEntries(termEntries) {
+  if (!Array.isArray(termEntries)) {
+    throw new Error('external_data/terms_node.json must be an array');
+  }
+
+  for (const [index, entry] of termEntries.entries()) {
+    const technology = cleanText(entry?.technology);
+    const description = cleanText(entry?.description);
+    const reference = cleanText(entry?.reference);
+
+    if (!technology) {
+      throw new Error(`Term entry at index ${index} is missing "technology"`);
+    }
+    if (!description) {
+      throw new Error(`Term entry "${technology}" is missing "description"`);
+    }
+    if (!reference) {
+      throw new Error(`Term entry "${technology}" is missing "reference"`);
+    }
+  }
+}
+
+function buildTermMetadataIndex(termEntries) {
+  const index = new Map();
+
+  for (const entry of termEntries) {
+    const technology = cleanText(entry.technology);
+    const description = cleanText(entry.description);
+    const reference = cleanText(entry.reference);
+
+    if (index.has(technology)) {
+      throw new Error(`Duplicate technology in external_data/terms_node.json: "${technology}"`);
+    }
+
+    index.set(technology, {
+      description,
+      reference,
+    });
+  }
+
+  return index;
+}
+
+function validateTermCoverage(graph, termMetadataIndex) {
+  const graphTermLabels = graph.nodes
+    .filter((node) => node?.data?.type === 'term')
+    .map((node) => node.data.label);
+
+  for (const label of graphTermLabels) {
+    if (!termMetadataIndex.has(label)) {
+      throw new Error(`Missing term metadata for graph term "${label}"`);
+    }
+  }
+
+  for (const technology of termMetadataIndex.keys()) {
+    if (!graphTermLabels.includes(technology)) {
+      throw new Error(`Term metadata has no matching graph node: "${technology}"`);
+    }
+  }
 }
 
 function resolveRelation(articleNode, externalArticles, relationIndex) {

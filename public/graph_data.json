@@ -40,7 +40,9 @@
         "id": "term-ahp",
         "label": "AHP",
         "type": "term",
-        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão",
+        "description": "Método para tomada de decisão que compara alternativas em pares e organiza critérios em hierarquia.",
+        "reference": "https://arxiv.org/abs/1605.05777"
       }
     },
     {
@@ -48,7 +50,9 @@
         "id": "term-bayesian-models",
         "label": "Bayesian Models",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Modelos que atualizam previsões com base em probabilidade conforme novos dados aparecem.",
+        "reference": "https://en.wikipedia.org/wiki/Bayesian_inference"
       }
     },
     {
@@ -56,7 +60,9 @@
         "id": "term-big-data-analytics",
         "label": "Big Data Analytics",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Análise de grandes volumes de dados para identificar padrões e gerar insights.",
+        "reference": "https://en.wikipedia.org/wiki/Big_data"
       }
     },
     {
@@ -64,7 +70,9 @@
         "id": "term-cnn",
         "label": "CNN",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Rede neural projetada para reconhecer padrões em imagens.",
+        "reference": "https://arxiv.org/abs/1409.1556"
       }
     },
     {
@@ -72,7 +80,9 @@
         "id": "term-centralized-databases",
         "label": "Centralized Databases",
         "type": "term",
-        "bigArea": "Abordagens Institucionais"
+        "bigArea": "Abordagens Institucionais",
+        "description": "Banco de dados armazenado em um único local central.",
+        "reference": "https://en.wikipedia.org/wiki/Centralized_database"
       }
     },
     {
@@ -80,7 +90,9 @@
         "id": "term-computational-social-science",
         "label": "Computational Social Science",
         "type": "term",
-        "bigArea": "Abordagens Institucionais"
+        "bigArea": "Abordagens Institucionais",
+        "description": "Uso de dados e computação para estudar comportamento social.",
+        "reference": "https://en.wikipedia.org/wiki/Computational_social_science"
       }
     },
     {
@@ -88,7 +100,9 @@
         "id": "term-dna-metabarcoding",
         "label": "DNA Metabarcoding",
         "type": "term",
-        "bigArea": "Sensoriamento Remoto"
+        "bigArea": "Sensoriamento Remoto",
+        "description": "Identificação de espécies usando DNA ambiental.",
+        "reference": "https://www.nature.com/articles/nrg3643"
       }
     },
     {
@@ -96,7 +110,9 @@
         "id": "term-decision-support-systems",
         "label": "Decision Support Systems",
         "type": "term",
-        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão",
+        "description": "Sistemas que auxiliam decisões com base em dados e modelos.",
+        "reference": "https://en.wikipedia.org/wiki/Decision_support_system"
       }
     },
     {
@@ -104,7 +120,9 @@
         "id": "term-deep-learning",
         "label": "Deep Learning",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Subárea do machine learning baseada em redes neurais profundas.",
+        "reference": "https://arxiv.org/abs/1404.7828"
       }
     },
     {
@@ -112,7 +130,9 @@
         "id": "term-digital-twin",
         "label": "Digital Twin",
         "type": "term",
-        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão",
+        "description": "Representação digital de um sistema real para simulação.",
+        "reference": "https://arxiv.org/abs/2001.01524"
       }
     },
     {
@@ -120,7 +140,9 @@
         "id": "term-drone",
         "label": "Drone",
         "type": "term",
-        "bigArea": "Sensoriamento Remoto"
+        "bigArea": "Sensoriamento Remoto",
+        "description": "Veículo aéreo não tripulado usado para coleta de dados.",
+        "reference": "https://www.mdpi.com/2504-446X/3/3/79"
       }
     },
     {
@@ -128,7 +150,9 @@
         "id": "term-esri-storymaps",
         "label": "ESRI StoryMaps",
         "type": "term",
-        "bigArea": "Geotecnologias"
+        "bigArea": "Geotecnologias",
+        "description": "Ferramenta para criar narrativas com mapas interativos.",
+        "reference": "https://storymaps.arcgis.com"
       }
     },
     {
@@ -136,7 +160,9 @@
         "id": "term-evi",
         "label": "EVI",
         "type": "term",
-        "bigArea": "Sensoriamento Remoto"
+        "bigArea": "Sensoriamento Remoto",
+        "description": "Índice para medir a saúde da vegetação.",
+        "reference": "https://en.wikipedia.org/wiki/Enhanced_vegetation_index"
       }
     },
     {
@@ -144,7 +170,9 @@
         "id": "term-environmental-licensing",
         "label": "Environmental Licensing",
         "type": "term",
-        "bigArea": "Abordagens Institucionais"
+        "bigArea": "Abordagens Institucionais",
+        "description": "Processo legal para autorizar atividades com impacto ambiental.",
+        "reference": "https://en.wikipedia.org/wiki/Environmental_impact_assessment"
       }
     },
     {
@@ -152,7 +180,9 @@
         "id": "term-folium",
         "label": "Folium",
         "type": "term",
-        "bigArea": "Geotecnologias"
+        "bigArea": "Geotecnologias",
+        "description": "Biblioteca Python para criar mapas interativos.",
+        "reference": "https://python-visualization.github.io/folium/"
       }
     },
     {
@@ -160,7 +190,9 @@
         "id": "term-fuzzy-logic",
         "label": "Fuzzy Logic",
         "type": "term",
-        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão",
+        "description": "Lógica que trabalha com valores intermediários.",
+        "reference": "https://en.wikipedia.org/wiki/Fuzzy_logic"
       }
     },
     {
@@ -168,7 +200,9 @@
         "id": "term-gis",
         "label": "GIS",
         "type": "term",
-        "bigArea": "Geotecnologias"
+        "bigArea": "Geotecnologias",
+        "description": "Sistema para análise e visualização de dados geográficos.",
+        "reference": "https://en.wikipedia.org/wiki/Geographic_information_system"
       }
     },
     {
@@ -176,7 +210,9 @@
         "id": "term-grnn",
         "label": "GRNN",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Rede neural usada para previsão baseada em padrões.",
+        "reference": "https://en.wikipedia.org/wiki/General_regression_neural_network"
       }
     },
     {
@@ -184,7 +220,9 @@
         "id": "term-geojson",
         "label": "GeoJSON",
         "type": "term",
-        "bigArea": "Geotecnologias"
+        "bigArea": "Geotecnologias",
+        "description": "Formato para representar dados geográficos em JSON.",
+        "reference": "https://geojson.org"
       }
     },
     {
@@ -192,7 +230,9 @@
         "id": "term-glove",
         "label": "GloVe",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Modelo que transforma palavras em vetores numéricos.",
+        "reference": "https://nlp.stanford.edu/projects/glove/"
       }
     },
     {
@@ -200,7 +240,9 @@
         "id": "term-grey-relational-analysis",
         "label": "Grey Relational Analysis",
         "type": "term",
-        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão",
+        "description": "Método para analisar relações em sistemas complexos.",
+        "reference": "https://en.wikipedia.org/wiki/Grey_relational_analysis"
       }
     },
     {
@@ -208,7 +250,9 @@
         "id": "term-hyperspectral-sensors",
         "label": "Hyperspectral Sensors",
         "type": "term",
-        "bigArea": "Sensoriamento Remoto"
+        "bigArea": "Sensoriamento Remoto",
+        "description": "Sensores que capturam informação detalhada da luz.",
+        "reference": "https://en.wikipedia.org/wiki/Hyperspectral_imaging"
       }
     },
     {
@@ -216,7 +260,9 @@
         "id": "term-lstm",
         "label": "LSTM",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Rede neural para dados sequenciais.",
+        "reference": "https://arxiv.org/abs/1402.1128"
       }
     },
     {
@@ -224,7 +270,9 @@
         "id": "term-landsat",
         "label": "Landsat",
         "type": "term",
-        "bigArea": "Sensoriamento Remoto"
+        "bigArea": "Sensoriamento Remoto",
+        "description": "Satélite usado para observar a Terra.",
+        "reference": "https://landsat.gsfc.nasa.gov"
       }
     },
     {
@@ -232,7 +280,9 @@
         "id": "term-lidar",
         "label": "LiDAR",
         "type": "term",
-        "bigArea": "Sensoriamento Remoto"
+        "bigArea": "Sensoriamento Remoto",
+        "description": "Tecnologia a laser para mapear superfícies.",
+        "reference": "https://en.wikipedia.org/wiki/Lidar"
       }
     },
     {
@@ -240,7 +290,9 @@
         "id": "term-linear-classification",
         "label": "Linear Classification",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Modelo que separa dados com uma linha ou plano.",
+        "reference": "https://en.wikipedia.org/wiki/Linear_classifier"
       }
     },
     {
@@ -248,7 +300,9 @@
         "id": "term-linknet",
         "label": "LinkNet",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Rede neural para segmentação de imagens.",
+        "reference": "https://arxiv.org/abs/1707.03718"
       }
     },
     {
@@ -256,7 +310,9 @@
         "id": "term-manet",
         "label": "MAnet",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Rede neural de segmentação com mecanismo de atenção.",
+        "reference": "https://arxiv.org/abs/2009.06573"
       }
     },
     {
@@ -264,7 +320,9 @@
         "id": "term-mcda",
         "label": "MCDA",
         "type": "term",
-        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão",
+        "description": "Métodos de decisão com múltiplos critérios.",
+        "reference": "https://en.wikipedia.org/wiki/Multiple-criteria_decision_analysis"
       }
     },
     {
@@ -272,7 +330,9 @@
         "id": "term-machine-learning",
         "label": "Machine Learning",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Área da IA que aprende padrões a partir de dados.",
+        "reference": "https://www.researchgate.net/publication/356200169_A_Comprehensive_Survey_on_Machine_Learning"
       }
     },
     {
@@ -280,7 +340,9 @@
         "id": "term-nirs",
         "label": "NIRS",
         "type": "term",
-        "bigArea": "Sensoriamento Remoto"
+        "bigArea": "Sensoriamento Remoto",
+        "description": "Técnica que usa luz infravermelha para análise.",
+        "reference": "https://en.wikipedia.org/wiki/Near-infrared_spectroscopy"
       }
     },
     {
@@ -288,7 +350,9 @@
         "id": "term-natural-language-processing",
         "label": "Natural Language Processing",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Área que permite computadores entender linguagem humana.",
+        "reference": "https://en.wikipedia.org/wiki/Natural_language_processing"
       }
     },
     {
@@ -296,7 +360,9 @@
         "id": "term-particle-swarm-optimization",
         "label": "Particle Swarm Optimization",
         "type": "term",
-        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão",
+        "description": "Algoritmo inspirado em enxames para otimização.",
+        "reference": "https://en.wikipedia.org/wiki/Particle_swarm_optimization"
       }
     },
     {
@@ -304,7 +370,9 @@
         "id": "term-principal-component-analysis",
         "label": "Principal Component Analysis",
         "type": "term",
-        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão",
+        "description": "Técnica para reduzir dimensões dos dados.",
+        "reference": "https://en.wikipedia.org/wiki/Principal_component_analysis"
       }
     },
     {
@@ -312,7 +380,9 @@
         "id": "term-public-participation",
         "label": "Public Participation",
         "type": "term",
-        "bigArea": "Abordagens Institucionais"
+        "bigArea": "Abordagens Institucionais",
+        "description": "Envolvimento da população em decisões públicas.",
+        "reference": "https://en.wikipedia.org/wiki/Public_participation"
       }
     },
     {
@@ -320,7 +390,9 @@
         "id": "term-q-learning",
         "label": "Q-Learning",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Algoritmo de aprendizado por reforço.",
+        "reference": "https://en.wikipedia.org/wiki/Q-learning"
       }
     },
     {
@@ -328,7 +400,9 @@
         "id": "term-qgis",
         "label": "QGIS",
         "type": "term",
-        "bigArea": "Geotecnologias"
+        "bigArea": "Geotecnologias",
+        "description": "Software open-source para análise geográfica.",
+        "reference": "https://qgis.org"
       }
     },
     {
@@ -336,7 +410,9 @@
         "id": "term-quickbird",
         "label": "QuickBird",
         "type": "term",
-        "bigArea": "Sensoriamento Remoto"
+        "bigArea": "Sensoriamento Remoto",
+        "description": "Satélite de alta resolução da Terra.",
+        "reference": "https://en.wikipedia.org/wiki/QuickBird"
       }
     },
     {
@@ -344,7 +420,9 @@
         "id": "term-ro-rsei",
         "label": "RO-RSEI",
         "type": "term",
-        "bigArea": "Sensoriamento Remoto"
+        "bigArea": "Sensoriamento Remoto",
+        "description": "Índice ecológico baseado em sensoriamento remoto otimizado por escala.",
+        "reference": "INTERNAL_PROJECT_REFERENCE"
       }
     },
     {
@@ -352,7 +430,9 @@
         "id": "term-random-forest",
         "label": "Random Forest",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Modelo com múltiplas árvores de decisão.",
+        "reference": "https://en.wikipedia.org/wiki/Random_forest"
       }
     },
     {
@@ -360,7 +440,9 @@
         "id": "term-rapid-impact-assessment-matrix",
         "label": "Rapid Impact Assessment Matrix",
         "type": "term",
-        "bigArea": "Ferramentas de Suporte à Tomada de Decisão"
+        "bigArea": "Ferramentas de Suporte à Tomada de Decisão",
+        "description": "Método para avaliar impactos ambientais rapidamente.",
+        "reference": "https://en.wikipedia.org/wiki/Rapid_impact_assessment_matrix"
       }
     },
     {
@@ -368,7 +450,9 @@
         "id": "term-remote-sensing",
         "label": "Remote Sensing",
         "type": "term",
-        "bigArea": "Sensoriamento Remoto"
+        "bigArea": "Sensoriamento Remoto",
+        "description": "Coleta de dados da Terra sem contato direto.",
+        "reference": "https://en.wikipedia.org/wiki/Remote_sensing"
       }
     },
     {
@@ -376,7 +460,9 @@
         "id": "term-som",
         "label": "SOM",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Rede neural que agrupa dados automaticamente.",
+        "reference": "https://en.wikipedia.org/wiki/Self-organizing_map"
       }
     },
     {
@@ -384,7 +470,9 @@
         "id": "term-svm",
         "label": "SVM",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Algoritmo que separa dados com fronteira ótima.",
+        "reference": "https://en.wikipedia.org/wiki/Support_vector_machine"
       }
     },
     {
@@ -392,7 +480,9 @@
         "id": "term-svr",
         "label": "SVR",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Versão do SVM para regressão.",
+        "reference": "https://en.wikipedia.org/wiki/Support_vector_machine#Regression"
       }
     },
     {
@@ -400,7 +490,9 @@
         "id": "term-saliency-maps",
         "label": "Saliency Maps",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Técnica que mostra quais partes influenciam um modelo.",
+        "reference": "https://arxiv.org/abs/1312.6034"
       }
     },
     {
@@ -408,7 +500,9 @@
         "id": "term-strategic-environmental-assessment",
         "label": "Strategic Environmental Assessment",
         "type": "term",
-        "bigArea": "Abordagens Institucionais"
+        "bigArea": "Abordagens Institucionais",
+        "description": "Avaliação ambiental de políticas e planos.",
+        "reference": "https://en.wikipedia.org/wiki/Strategic_environmental_assessment"
       }
     },
     {
@@ -416,7 +510,9 @@
         "id": "term-sustainable-chemistry",
         "label": "Sustainable Chemistry",
         "type": "term",
-        "bigArea": "Abordagens Institucionais"
+        "bigArea": "Abordagens Institucionais",
+        "description": "Química com menor impacto ambiental.",
+        "reference": "https://en.wikipedia.org/wiki/Green_chemistry"
       }
     },
     {
@@ -424,7 +520,9 @@
         "id": "term-transformers",
         "label": "Transformers",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Arquitetura para modelar sequências.",
+        "reference": "https://arxiv.org/abs/1706.03762"
       }
     },
     {
@@ -432,7 +530,9 @@
         "id": "term-u-net",
         "label": "U-Net",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Rede neural para segmentação de imagens.",
+        "reference": "https://arxiv.org/abs/1505.04597"
       }
     },
     {
@@ -440,7 +540,9 @@
         "id": "term-u-net-plus-plus",
         "label": "U-Net++",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Versão aprimorada da U-Net.",
+        "reference": "https://arxiv.org/abs/1807.10165"
       }
     },
     {
@@ -448,7 +550,9 @@
         "id": "term-var",
         "label": "VAR",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Modelo para séries temporais multivariadas.",
+        "reference": "https://en.wikipedia.org/wiki/Vector_autoregression"
       }
     },
     {
@@ -456,7 +560,9 @@
         "id": "term-web-gis",
         "label": "Web GIS",
         "type": "term",
-        "bigArea": "Geotecnologias"
+        "bigArea": "Geotecnologias",
+        "description": "Sistema GIS acessado pela web.",
+        "reference": "https://en.wikipedia.org/wiki/Web_GIS"
       }
     },
     {
@@ -464,7 +570,9 @@
         "id": "term-xgboost",
         "label": "XGBoost",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Algoritmo eficiente baseado em árvores.",
+        "reference": "https://arxiv.org/abs/1603.02754"
       }
     },
     {
@@ -472,7 +580,9 @@
         "id": "term-yolo",
         "label": "YOLO",
         "type": "term",
-        "bigArea": "Inteligência Artificial"
+        "bigArea": "Inteligência Artificial",
+        "description": "Modelo para detecção de objetos em tempo real.",
+        "reference": "https://arxiv.org/abs/1506.02640"
       }
     },
     {

@@ -18,6 +18,8 @@ export interface BigAreaNode extends NodeBase {
 export interface TermNode extends NodeBase {
   type: 'term';
   bigArea: string;
+  description?: string;
+  reference?: string;
 }
 
 export interface ArticleNode extends NodeBase {

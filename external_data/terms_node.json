@@ -1,0 +1,277 @@
+[
+  {
+    "technology": "AHP",
+    "description": "Método para tomada de decisão que compara alternativas em pares e organiza critérios em hierarquia.",
+    "reference": "https://arxiv.org/abs/1605.05777"
+  },
+  {
+    "technology": "Bayesian Models",
+    "description": "Modelos que atualizam previsões com base em probabilidade conforme novos dados aparecem.",
+    "reference": "https://en.wikipedia.org/wiki/Bayesian_inference"
+  },
+  {
+    "technology": "Big Data Analytics",
+    "description": "Análise de grandes volumes de dados para identificar padrões e gerar insights.",
+    "reference": "https://en.wikipedia.org/wiki/Big_data"
+  },
+  {
+    "technology": "Centralized Databases",
+    "description": "Banco de dados armazenado em um único local central.",
+    "reference": "https://en.wikipedia.org/wiki/Centralized_database"
+  },
+  {
+    "technology": "CNN",
+    "description": "Rede neural projetada para reconhecer padrões em imagens.",
+    "reference": "https://arxiv.org/abs/1409.1556"
+  },
+  {
+    "technology": "Computational Social Science",
+    "description": "Uso de dados e computação para estudar comportamento social.",
+    "reference": "https://en.wikipedia.org/wiki/Computational_social_science"
+  },
+  {
+    "technology": "Decision Support Systems",
+    "description": "Sistemas que auxiliam decisões com base em dados e modelos.",
+    "reference": "https://en.wikipedia.org/wiki/Decision_support_system"
+  },
+  {
+    "technology": "Deep Learning",
+    "description": "Subárea do machine learning baseada em redes neurais profundas.",
+    "reference": "https://arxiv.org/abs/1404.7828"
+  },
+  {
+    "technology": "Digital Twin",
+    "description": "Representação digital de um sistema real para simulação.",
+    "reference": "https://arxiv.org/abs/2001.01524"
+  },
+  {
+    "technology": "DNA Metabarcoding",
+    "description": "Identificação de espécies usando DNA ambiental.",
+    "reference": "https://www.nature.com/articles/nrg3643"
+  },
+  {
+    "technology": "Drone",
+    "description": "Veículo aéreo não tripulado usado para coleta de dados.",
+    "reference": "https://www.mdpi.com/2504-446X/3/3/79"
+  },
+  {
+    "technology": "Environmental Licensing",
+    "description": "Processo legal para autorizar atividades com impacto ambiental.",
+    "reference": "https://en.wikipedia.org/wiki/Environmental_impact_assessment"
+  },
+  {
+    "technology": "ESRI StoryMaps",
+    "description": "Ferramenta para criar narrativas com mapas interativos.",
+    "reference": "https://storymaps.arcgis.com"
+  },
+  {
+    "technology": "EVI",
+    "description": "Índice para medir a saúde da vegetação.",
+    "reference": "https://en.wikipedia.org/wiki/Enhanced_vegetation_index"
+  },
+  {
+    "technology": "Folium",
+    "description": "Biblioteca Python para criar mapas interativos.",
+    "reference": "https://python-visualization.github.io/folium/"
+  },
+  {
+    "technology": "Fuzzy Logic",
+    "description": "Lógica que trabalha com valores intermediários.",
+    "reference": "https://en.wikipedia.org/wiki/Fuzzy_logic"
+  },
+  {
+    "technology": "GeoJSON",
+    "description": "Formato para representar dados geográficos em JSON.",
+    "reference": "https://geojson.org"
+  },
+  {
+    "technology": "GIS",
+    "description": "Sistema para análise e visualização de dados geográficos.",
+    "reference": "https://en.wikipedia.org/wiki/Geographic_information_system"
+  },
+  {
+    "technology": "GloVe",
+    "description": "Modelo que transforma palavras em vetores numéricos.",
+    "reference": "https://nlp.stanford.edu/projects/glove/"
+  },
+  {
+    "technology": "Grey Relational Analysis",
+    "description": "Método para analisar relações em sistemas complexos.",
+    "reference": "https://en.wikipedia.org/wiki/Grey_relational_analysis"
+  },
+  {
+    "technology": "GRNN",
+    "description": "Rede neural usada para previsão baseada em padrões.",
+    "reference": "https://en.wikipedia.org/wiki/General_regression_neural_network"
+  },
+  {
+    "technology": "Hyperspectral Sensors",
+    "description": "Sensores que capturam informação detalhada da luz.",
+    "reference": "https://en.wikipedia.org/wiki/Hyperspectral_imaging"
+  },
+  {
+    "technology": "Landsat",
+    "description": "Satélite usado para observar a Terra.",
+    "reference": "https://landsat.gsfc.nasa.gov"
+  },
+  {
+    "technology": "LiDAR",
+    "description": "Tecnologia a laser para mapear superfícies.",
+    "reference": "https://en.wikipedia.org/wiki/Lidar"
+  },
+  {
+    "technology": "Linear Classification",
+    "description": "Modelo que separa dados com uma linha ou plano.",
+    "reference": "https://en.wikipedia.org/wiki/Linear_classifier"
+  },
+  {
+    "technology": "LinkNet",
+    "description": "Rede neural para segmentação de imagens.",
+    "reference": "https://arxiv.org/abs/1707.03718"
+  },
+  {
+    "technology": "LSTM",
+    "description": "Rede neural para dados sequenciais.",
+    "reference": "https://arxiv.org/abs/1402.1128"
+  },
+  {
+    "technology": "Machine Learning",
+    "description": "Área da IA que aprende padrões a partir de dados.",
+    "reference": "https://www.researchgate.net/publication/356200169_A_Comprehensive_Survey_on_Machine_Learning"
+  },
+  {
+    "technology": "MAnet",
+    "description": "Rede neural de segmentação com mecanismo de atenção.",
+    "reference": "https://arxiv.org/abs/2009.06573"
+  },
+  {
+    "technology": "MCDA",
+    "description": "Métodos de decisão com múltiplos critérios.",
+    "reference": "https://en.wikipedia.org/wiki/Multiple-criteria_decision_analysis"
+  },
+  {
+    "technology": "Natural Language Processing",
+    "description": "Área que permite computadores entender linguagem humana.",
+    "reference": "https://en.wikipedia.org/wiki/Natural_language_processing"
+  },
+  {
+    "technology": "NIRS",
+    "description": "Técnica que usa luz infravermelha para análise.",
+    "reference": "https://en.wikipedia.org/wiki/Near-infrared_spectroscopy"
+  },
+  {
+    "technology": "Particle Swarm Optimization",
+    "description": "Algoritmo inspirado em enxames para otimização.",
+    "reference": "https://en.wikipedia.org/wiki/Particle_swarm_optimization"
+  },
+  {
+    "technology": "Principal Component Analysis",
+    "description": "Técnica para reduzir dimensões dos dados.",
+    "reference": "https://en.wikipedia.org/wiki/Principal_component_analysis"
+  },
+  {
+    "technology": "Public Participation",
+    "description": "Envolvimento da população em decisões públicas.",
+    "reference": "https://en.wikipedia.org/wiki/Public_participation"
+  },
+  {
+    "technology": "Q-Learning",
+    "description": "Algoritmo de aprendizado por reforço.",
+    "reference": "https://en.wikipedia.org/wiki/Q-learning"
+  },
+  {
+    "technology": "QGIS",
+    "description": "Software open-source para análise geográfica.",
+    "reference": "https://qgis.org"
+  },
+  {
+    "technology": "QuickBird",
+    "description": "Satélite de alta resolução da Terra.",
+    "reference": "https://en.wikipedia.org/wiki/QuickBird"
+  },
+  {
+    "technology": "Random Forest",
+    "description": "Modelo com múltiplas árvores de decisão.",
+    "reference": "https://en.wikipedia.org/wiki/Random_forest"
+  },
+  {
+    "technology": "Rapid Impact Assessment Matrix",
+    "description": "Método para avaliar impactos ambientais rapidamente.",
+    "reference": "https://en.wikipedia.org/wiki/Rapid_impact_assessment_matrix"
+  },
+  {
+    "technology": "Remote Sensing",
+    "description": "Coleta de dados da Terra sem contato direto.",
+    "reference": "https://en.wikipedia.org/wiki/Remote_sensing"
+  },
+  {
+    "technology": "RO-RSEI",
+    "description": "Índice ecológico baseado em sensoriamento remoto otimizado por escala.",
+    "reference": "INTERNAL_PROJECT_REFERENCE"
+  },
+  {
+    "technology": "Saliency Maps",
+    "description": "Técnica que mostra quais partes influenciam um modelo.",
+    "reference": "https://arxiv.org/abs/1312.6034"
+  },
+  {
+    "technology": "SOM",
+    "description": "Rede neural que agrupa dados automaticamente.",
+    "reference": "https://en.wikipedia.org/wiki/Self-organizing_map"
+  },
+  {
+    "technology": "Strategic Environmental Assessment",
+    "description": "Avaliação ambiental de políticas e planos.",
+    "reference": "https://en.wikipedia.org/wiki/Strategic_environmental_assessment"
+  },
+  {
+    "technology": "Sustainable Chemistry",
+    "description": "Química com menor impacto ambiental.",
+    "reference": "https://en.wikipedia.org/wiki/Green_chemistry"
+  },
+  {
+    "technology": "SVM",
+    "description": "Algoritmo que separa dados com fronteira ótima.",
+    "reference": "https://en.wikipedia.org/wiki/Support_vector_machine"
+  },
+  {
+    "technology": "SVR",
+    "description": "Versão do SVM para regressão.",
+    "reference": "https://en.wikipedia.org/wiki/Support_vector_machine#Regression"
+  },
+  {
+    "technology": "Transformers",
+    "description": "Arquitetura para modelar sequências.",
+    "reference": "https://arxiv.org/abs/1706.03762"
+  },
+  {
+    "technology": "U-Net",
+    "description": "Rede neural para segmentação de imagens.",
+    "reference": "https://arxiv.org/abs/1505.04597"
+  },
+  {
+    "technology": "U-Net++",
+    "description": "Versão aprimorada da U-Net.",
+    "reference": "https://arxiv.org/abs/1807.10165"
+  },
+  {
+    "technology": "VAR",
+    "description": "Modelo para séries temporais multivariadas.",
+    "reference": "https://en.wikipedia.org/wiki/Vector_autoregression"
+  },
+  {
+    "technology": "Web GIS",
+    "description": "Sistema GIS acessado pela web.",
+    "reference": "https://en.wikipedia.org/wiki/Web_GIS"
+  },
+  {
+    "technology": "XGBoost",
+    "description": "Algoritmo eficiente baseado em árvores.",
+    "reference": "https://arxiv.org/abs/1603.02754"
+  },
+  {
+    "technology": "YOLO",
+    "description": "Modelo para detecção de objetos em tempo real.",
+    "reference": "https://arxiv.org/abs/1506.02640"
+  }
+]

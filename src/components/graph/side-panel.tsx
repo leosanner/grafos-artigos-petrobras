@@ -6,6 +6,7 @@ import type {
   ArticleNode,
   GraphNode,
   GraphPayload,
+  TermNode,
 } from '@/lib/graph/types';
 
 interface Props {
@@ -96,6 +97,12 @@ function NodeDetails({ node, payload }: { node: GraphNode; payload: GraphPayload
     return (
       <div className="flex flex-col gap-6">
         <Field label="Grande área">{node.bigArea}</Field>
+        {node.description && <Field label="Descrição">{node.description}</Field>}
+        {node.reference && (
+          <Field label="Referência">
+            <TermReference reference={node.reference} />
+          </Field>
+        )}
         <div className="flex flex-col gap-3">
           <SectionLabel suffix={articleNodes.length.toString().padStart(2, '0')}>
             artigos
@@ -129,6 +136,32 @@ function NodeDetails({ node, payload }: { node: GraphNode; payload: GraphPayload
     <div className="flex gap-6">
       <Counter label="Artigos" value={articleCount} />
     </div>
+  );
+}
+
+function TermReference({ reference }: { reference: TermNode['reference'] }) {
+  if (!reference) return null;
+
+  if (isExternalUrl(reference)) {
+    return (
+      <a
+        href={reference}
+        target="_blank"
+        rel="noreferrer"
+        className="break-all transition-colors hover:text-[var(--accent)]"
+      >
+        {reference}
+      </a>
+    );
+  }
+
+  return (
+    <span className="inline-flex flex-wrap items-center gap-3">
+      <span>{reference}</span>
+      <span className="rounded-full border border-[var(--border-strong)] px-2 py-1 font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--muted)]">
+        provisoria
+      </span>
+    </span>
   );
 }
 
@@ -256,6 +289,10 @@ function formatDate(value: string) {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return value;
   return new Intl.DateTimeFormat('pt-BR', { dateStyle: 'medium' }).format(date);
+}
+
+function isExternalUrl(value: string) {
+  return /^https?:\/\//i.test(value);
 }
 
 function formatNumber(value: number) {
