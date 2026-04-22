@@ -29,6 +29,42 @@ export interface ArticleNode extends NodeBase {
   context?: string;
   applicationArea?: string;
   reference?: string;
+  externalArticleKey?: string;
+  matchMethod?: 'normalized_title' | 'manual_override';
+  externalMetadata?: ArticleExternalMetadata;
+}
+
+export interface ArticleExternalOpenAccess {
+  isOa?: boolean;
+  status?: string;
+  license?: string;
+}
+
+export interface ArticleExternalAuthor {
+  name: string;
+  orcid?: string;
+  isCorresponding?: boolean;
+}
+
+export interface ArticleExternalInstitution {
+  id?: string;
+  name: string;
+  country?: string;
+  type?: string;
+}
+
+export interface ArticleExternalMetadata {
+  doi?: string;
+  publicationDate?: string;
+  source?: string;
+  sourceName?: string;
+  language?: string;
+  citationCount?: number;
+  fwci?: number;
+  openAccess?: ArticleExternalOpenAccess;
+  authors?: ArticleExternalAuthor[];
+  institutions?: ArticleExternalInstitution[];
+  keywords?: string[];
 }
 
 export interface ApplicationAreaNode extends NodeBase {

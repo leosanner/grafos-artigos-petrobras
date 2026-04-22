@@ -1,7 +1,7 @@
 import type { GraphPayload } from './types';
 
 export async function loadGraph(): Promise<GraphPayload> {
-  const res = await fetch('/graph_data.json', { cache: 'force-cache' });
+  const res = await fetch('/graph_data.json', { cache: 'no-store' });
   if (!res.ok) {
     throw new Error(`Failed to load graph_data.json: ${res.status}`);
   }
