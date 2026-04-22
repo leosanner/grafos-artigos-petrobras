@@ -1,0 +1,226 @@
+[
+  {
+    "graphArticleId": "article-01",
+    "graphTitle": "Strategizing Low Carbon Urban Planning Through Environmental Impact Assessment by Artificial Intelligence Driven Carbon Footprint",
+    "externalArticleKey": "42",
+    "externalTitle": "strategizing low carbon urban planning through environmental impact assessment by artificial intelligence driven carbon footprint forecasting",
+    "matchMethod": "manual_override"
+  },
+  {
+    "graphArticleId": "article-02",
+    "graphTitle": "Evaluating thresholds: the impact of terrain modifications on landslide susceptibility in a mountainous city",
+    "externalArticleKey": "61",
+    "externalTitle": "evaluating thresholds: the impact of terrain modifications on landslide susceptibility in a mountainous city",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-03",
+    "graphTitle": "Developing vehicular traffic noise prediction model through ensemble machine learning algorithms with GIS",
+    "externalArticleKey": "91",
+    "externalTitle": "developing vehicular traffic noise prediction model through ensemble machine learning algorithms with gis",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-04",
+    "graphTitle": "Neural natural language processing for long texts: A survey on classification and summarization",
+    "externalArticleKey": "106",
+    "externalTitle": "neural natural language processing for long texts: a survey on classification and summarization",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-05",
+    "graphTitle": "Social media and social impact assessment: Evolving methods in a shifting context",
+    "externalArticleKey": "19",
+    "externalTitle": "social media and social impact assessment: evolving methods in a shifting context",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-06",
+    "graphTitle": "NEPA and National Trends in Federal Infrastructure Siting in the United States",
+    "externalArticleKey": "57",
+    "externalTitle": "nepa and national trends in federal infrastructure siting in the united states",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-07",
+    "graphTitle": "AuxTransUNet: Enhancing Remote Sensing Image Segmentation of Open-Pit Mining Areas in Qinghai–Tibet Plateau",
+    "externalArticleKey": "33",
+    "externalTitle": "auxtransunet: enhancing remote sensing image segmentation of open-pit mining areas in qinghai-tibet plateau",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-08",
+    "graphTitle": "A supervised machine learning approach to discriminate the effect of carcass leachate on shallow groundwater quality around on-farm livestock mortality burial sites",
+    "externalArticleKey": "17",
+    "externalTitle": "a supervised machine learning approach to discriminate the effect of carcass leachate on shallow groundwater quality around on-farm livestock mortality burial sites",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-09",
+    "graphTitle": "Combining deep learning and machine learning techniques to track air pollution in relation to vegetation cover utilizing remotely sensed data",
+    "externalArticleKey": "40",
+    "externalTitle": "combining deep learning and machine learning techniques to track air pollution in relation to vegetation cover utilizing remotely sensed data",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-10",
+    "graphTitle": "Ocean carbon emission prediction and management measures based on artificial intelligence remote sensing estimation in the context of carbon neutrality",
+    "externalArticleKey": "99",
+    "externalTitle": "ocean carbon emission prediction and management measures based on artificial intelligence remote sensing estimation in the context of carbon neutrality",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-11",
+    "graphTitle": "Trusted artificial intelligence for environmental assessments: An explainable high-precision model with multi-source big data",
+    "externalArticleKey": "103",
+    "externalTitle": "trusted artificial intelligence for environmental assessments: an explainable high-precision model with multi-source big data",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-12",
+    "graphTitle": "Increased Use of Bayesian Network Models Has Improved Environmental Risk Assessments",
+    "externalArticleKey": "6",
+    "externalTitle": "increased use of bayesian network models has improved environmental risk assessments",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-13",
+    "graphTitle": "Combining deep learning and machine learning techniques to track air pollution in relation to vegetation cover utilizing remotely sensed data",
+    "externalArticleKey": "40",
+    "externalTitle": "combining deep learning and machine learning techniques to track air pollution in relation to vegetation cover utilizing remotely sensed data",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-14",
+    "graphTitle": "Can data science achieve the ideal of evidence-based decision-making in environmental regulation?",
+    "externalArticleKey": "108",
+    "externalTitle": "can data science achieve the ideal of evidence-based decision-making in environmental regulation?",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-15",
+    "graphTitle": "Environmental impact assessment for renewable energy investments through integrated reinforcement learning and molecular fuzzy-based decision-making algorithm",
+    "externalArticleKey": "113",
+    "externalTitle": "environmental impact assessment for renewable energy investments through integrated reinforcement learning and molecular fuzzy-based decision-making algorithm",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-16",
+    "graphTitle": "Artificial intelligence and machine learning in environmental impact prediction for soil pollution management – case for EIA process",
+    "externalArticleKey": "55",
+    "externalTitle": "artificial intelligence and machine learning in environmental impact prediction for soil pollution management – case for eia process",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-17",
+    "graphTitle": "System-Based Assessments—Improving the Confidence in the EIA Process",
+    "externalArticleKey": "29",
+    "externalTitle": "system-based assessments—improving the confidence in the eia process",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-18",
+    "graphTitle": "Development of a WebGIS Tool for Rapid Screening and Visualisation of Biodiversity and Sensitive Areas in the Gulf of Mexico",
+    "externalArticleKey": "34",
+    "externalTitle": "development of a webgis tool for rapid screening and visualisation of biodiversity and sensitive areas in the gulf of mexico",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-19",
+    "graphTitle": "Environmental impact assessment in Brazilian Amazonia: Challenges and prospects to assess biodiversity",
+    "externalArticleKey": "12",
+    "externalTitle": "environmental impact assessment in brazilian amazonia: challenges and prospects to assess biodiversity",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-20",
+    "graphTitle": "Research on remote sensing ecological environmental assessment method optimized by regional scale",
+    "externalArticleKey": "116",
+    "externalTitle": "research on remote sensing ecological environmental assessment method optimized by regional scale",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-21",
+    "graphTitle": "Study on cascade hydropower alternative schemes based on multi-objective particle swarm optimization algorithm",
+    "externalArticleKey": "104",
+    "externalTitle": "study on cascade hydropower alternative schemes based on multi-objective particle swarm optimization algorithm",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-22",
+    "graphTitle": "The Role of GIS Data Post-Processing in the Environmental Assessment: The Case of Umbria, Italy",
+    "externalArticleKey": "93",
+    "externalTitle": "the role of gis data post-processing in the environmental assessment: the case of umbria, italy",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-23",
+    "graphTitle": "MADM-Q, an efficient multi-attribute decision-making support system for offshore decommissioning",
+    "externalArticleKey": "72",
+    "externalTitle": "madm-q, an efficient multi-attribute decision-making support system for offshore decommissioning",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-24",
+    "graphTitle": "Environmental management using a digital twin",
+    "externalArticleKey": "96",
+    "externalTitle": "environmental management using a digital twin",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-25",
+    "graphTitle": "Design and development of a generic spatial decision support system, based on artificial intelligence and multicriteria decision analysis",
+    "externalArticleKey": "76",
+    "externalTitle": "design and development of a generic spatial decision support system, based on artificial intelligence and multicriteria decision analysis",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-26",
+    "graphTitle": "Designing and Developing a Web Tool to Support Strategic Environmental Assessment",
+    "externalArticleKey": "71",
+    "externalTitle": "designing and developing a web tool to support strategic environmental assessment",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-27",
+    "graphTitle": "Mapping environmental sensitivity: A systematic online approach to support environmental assessment and planning",
+    "externalArticleKey": "68",
+    "externalTitle": "mapping environmental sensitivity: a systematic online approach to support environmental assessment and planning",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-28",
+    "graphTitle": "Digital environmental impact assessment: An exploration of emerging digital approaches for non-technical reports",
+    "externalArticleKey": "80",
+    "externalTitle": "digital environmental impact assessment: an exploration of emerging digital approaches for non-technical reports",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-29",
+    "graphTitle": "Technological tools for sustainable development in developing countries: The example of Africa, a review",
+    "externalArticleKey": "24",
+    "externalTitle": "technological tools for sustainable development in developing countries: the example of africa, a review",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-30",
+    "graphTitle": "Public participation in environmental permitting: the Finnish approach and its effects",
+    "externalArticleKey": "39",
+    "externalTitle": "public participation in environmental permitting: the finnish approach and its effects",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-31",
+    "graphTitle": "Remote sensing reveals unprecedented sublethal impacts of a 40-year-old oil spill on mangroves",
+    "externalArticleKey": "25",
+    "externalTitle": "remote sensing reveals unprecedented sublethal impacts of a 40-year-old oil spill on mangroves",
+    "matchMethod": "normalized_title"
+  },
+  {
+    "graphArticleId": "article-32",
+    "graphTitle": "What would environmental impact assessment look like if we started from scratch today? Designing better EIA for developed neoliberal nations",
+    "externalArticleKey": "110",
+    "externalTitle": "what would environmental impact assessment look like if we started from scratch today? designing better eia for developed neoliberal nations",
+    "matchMethod": "normalized_title"
+  }
+]

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync:graph-metadata": "node scripts/sync-graph-article-metadata.mjs"
   },
   "dependencies": {
     "cytoscape": "^3.33.2",

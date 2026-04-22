@@ -486,7 +486,96 @@
         "application": "Previsão de pegada de carbono em projetos urbanos",
         "context": "Planejamento urbano de baixo carbono em Da Nang, Vietnã",
         "applicationArea": "Análise Preditiva",
-        "reference": "Ayasrah et al., 2024"
+        "reference": "Ayasrah et al., 2024",
+        "externalArticleKey": "42",
+        "matchMethod": "manual_override",
+        "externalMetadata": {
+          "doi": "10.53759/7669/jmc202404105",
+          "publicationDate": "2024-10-05",
+          "source": "elsevier",
+          "sourceName": "Journal of Machine and Computing",
+          "language": "en",
+          "citationCount": 29,
+          "fwci": 11.23677838,
+          "openAccess": {
+            "isOa": true,
+            "status": "hybrid",
+            "license": "cc-by-nc-nd"
+          },
+          "authors": [
+            {
+              "name": "Firas Tayseer Ayasrah",
+              "orcid": "0000-0002-6477-000X",
+              "isCorresponding": true
+            },
+            {
+              "name": "Nabeel S. Alsharafa",
+              "orcid": "0000-0003-4901-1432"
+            },
+            {
+              "name": "S Sivaprakash"
+            },
+            {
+              "name": "B. Srinivasarao"
+            },
+            {
+              "name": "Sudhakar Sengan"
+            },
+            {
+              "name": "N Kumaran"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I161913731",
+              "name": "Al Ain University",
+              "country": "AE",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I4392021143",
+              "name": "University of Warith Al-Anbiyaa",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I4210142005",
+              "name": "University of Kerbala",
+              "country": "IQ",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I876193797",
+              "name": "Vellore Institute of Technology University",
+              "country": "IN",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I875944469",
+              "name": "Koneru Lakshmaiah Education Foundation",
+              "country": "IN",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I118826373",
+              "name": "Tirunelveli Medical College",
+              "country": "IN",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I1330855593",
+              "name": "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology",
+              "country": "IN",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "carbon emissions",
+            "low-carbon urban planning",
+            "lstm",
+            "machine learning",
+            "vector autoregression"
+          ]
+        }
       }
     },
     {
@@ -500,7 +589,66 @@
         "application": "Quantificação de alterações no terreno e suscetibilidade a deslizamentos",
         "context": "Planejamento urbano e gestão de riscos de desastres em Busan, Coreia do Sul",
         "applicationArea": "Análise Preditiva",
-        "reference": "Heo et al., 2025"
+        "reference": "Heo et al., 2025",
+        "externalArticleKey": "61",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1080/19475705.2025.2493211",
+          "publicationDate": "2025-04-25",
+          "source": "elsevier",
+          "sourceName": "Geomatics Natural Hazards and Risk",
+          "language": "en",
+          "citationCount": 5,
+          "fwci": 31.9643227,
+          "openAccess": {
+            "isOa": true,
+            "status": "gold"
+          },
+          "authors": [
+            {
+              "name": "Sujung Heo",
+              "orcid": "0000-0002-9155-3414"
+            },
+            {
+              "name": "Sang-Jin Park",
+              "orcid": "0000-0003-4240-5682"
+            },
+            {
+              "name": "Dong‐Kun Lee",
+              "orcid": "0000-0001-9969-0117",
+              "isCorresponding": true
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210117052",
+              "name": "Institute of Forest Science",
+              "country": "RU",
+              "type": "facility"
+            },
+            {
+              "id": "https://openalex.org/I919547610",
+              "name": "The Korea Institute of Public Administration",
+              "country": "KR",
+              "type": "government"
+            },
+            {
+              "id": "https://openalex.org/I139264467",
+              "name": "Seoul National University",
+              "country": "KR",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "disaster risk management",
+            "earthwork volume index (evi)",
+            "environmental impact assessment (eia)",
+            "landslide susceptibility",
+            "random forest model",
+            "terrain modification",
+            "urbanization"
+          ]
+        }
       }
     },
     {
@@ -514,7 +662,68 @@
         "application": "Previsão e mapeamento de ruído de tráfego veicular",
         "context": "Avaliação de impacto acústico em infraestrutura urbana (Malásia)",
         "applicationArea": "Análise Preditiva",
-        "reference": "Ahmed et al., 2021"
+        "reference": "Ahmed et al., 2021",
+        "externalArticleKey": "91",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1007/s12517-021-08114-y",
+          "publicationDate": "2021-07-29",
+          "source": "elsevier",
+          "sourceName": "Arabian Journal of Geosciences",
+          "language": "en",
+          "citationCount": 34,
+          "fwci": 8.87479568,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Ahmed Abdulkareem Ahmed",
+              "orcid": "0000-0001-9863-2054",
+              "isCorresponding": true
+            },
+            {
+              "name": "Biswajeet Pradhan",
+              "orcid": "0000-0002-0102-5424"
+            },
+            {
+              "name": "Subrata Chakraborty",
+              "orcid": "0000-0002-3045-1350"
+            },
+            {
+              "name": "Abdullah Alamri"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I114017466",
+              "name": "University of Technology Sydney",
+              "country": "AU",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I885383172",
+              "name": "National University of Malaysia",
+              "country": "MY",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I28022161",
+              "name": "King Saud University",
+              "country": "SA",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "artificial neural network",
+            "correlation-based feature selection",
+            "ensemble machine learning",
+            "gis",
+            "remote sensing",
+            "vehicular traffic noise"
+          ]
+        }
       }
     },
     {
@@ -528,7 +737,61 @@
         "application": "Análise automatizada de relatórios de impacto ambiental",
         "context": "Automação de análise de RIAs, estudos técnicos e pareceres",
         "applicationArea": "Interpretação de Dados",
-        "reference": "Tsirmpas et al., 2024"
+        "reference": "Tsirmpas et al., 2024",
+        "externalArticleKey": "106",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.engappai.2024.108231",
+          "publicationDate": "2024-03-12",
+          "source": "elsevier",
+          "sourceName": "Engineering Applications of Artificial Intelligence",
+          "language": "en",
+          "citationCount": 46,
+          "fwci": 29.38381326,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Dimitrios Tsirmpas",
+              "orcid": "0000-0003-1686-421X"
+            },
+            {
+              "name": "Ioannis Gkionis",
+              "orcid": "0000-0001-5479-0632"
+            },
+            {
+              "name": "Georgios Th. Papadopoulos"
+            },
+            {
+              "name": "Ioannis Mademlis",
+              "isCorresponding": true
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I73142707",
+              "name": "Athens University of Economics and Business",
+              "country": "GR",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I32762134",
+              "name": "Harokopio University of Athens",
+              "country": "GR",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "deep neural networks",
+            "document classification",
+            "document summarization",
+            "long document",
+            "natural language processing",
+            "sentiment analysis"
+          ]
+        }
       }
     },
     {
@@ -542,7 +805,79 @@
         "application": "Análise de percepções e valores públicos sobre projetos",
         "context": "Participação pública em projetos de desenvolvimento (Canadá)",
         "applicationArea": "Participação Pública",
-        "reference": "Sherren et al., 2024"
+        "reference": "Sherren et al., 2024",
+        "externalArticleKey": "19",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1177/00113921231203179",
+          "publicationDate": "2023-10-30",
+          "source": "elsevier",
+          "sourceName": "Current Sociology",
+          "language": "en",
+          "citationCount": 9,
+          "fwci": 5.18276732,
+          "openAccess": {
+            "isOa": true,
+            "status": "hybrid",
+            "license": "cc-by-nc"
+          },
+          "authors": [
+            {
+              "name": "Kate Sherren",
+              "orcid": "0000-0003-1576-9878",
+              "isCorresponding": true
+            },
+            {
+              "name": "Yan Chen",
+              "orcid": "0000-0002-7013-4712"
+            },
+            {
+              "name": "Mehrnoosh Mohammadi",
+              "orcid": "0000-0002-7661-9171"
+            },
+            {
+              "name": "Qiqi Zhao",
+              "orcid": "0000-0003-2382-1197"
+            },
+            {
+              "name": "Keshava Pallavi Gone",
+              "orcid": "0000-0002-2028-4317"
+            },
+            {
+              "name": "HM Tuihedur Rahman"
+            },
+            {
+              "name": "Michael Smit"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I129902397",
+              "name": "Dalhousie University",
+              "country": "CA",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I881766915",
+              "name": "Nanjing University",
+              "country": "CN",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I32625721",
+              "name": "University of Saskatchewan",
+              "country": "CA",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "computational social science",
+            "environmental assessment",
+            "landscape culturomics",
+            "monitoring and evaluation",
+            "photo editing"
+          ]
+        }
       }
     },
     {
@@ -556,7 +891,58 @@
         "application": "Análise de documentos de AIA e classificação de impactos",
         "context": "Análise de EISs federais de 2013-2019 (Estados Unidos)",
         "applicationArea": "Interpretação de Dados",
-        "reference": "Scott et al., 2020"
+        "reference": "Scott et al., 2020",
+        "externalArticleKey": "57",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1111/ropr.12399",
+          "publicationDate": "2020-08-19",
+          "source": "elsevier",
+          "sourceName": "Review of Policy Research",
+          "language": "en",
+          "citationCount": 19,
+          "fwci": 6.19013949,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Tyler A. Scott",
+              "orcid": "0000-0002-4214-5895",
+              "isCorresponding": true
+            },
+            {
+              "name": "Nícola Ulibarrí",
+              "orcid": "0000-0001-6238-9056"
+            },
+            {
+              "name": "Omar Pérez Figueroa"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I84218800",
+              "name": "University of California, Davis",
+              "country": "US",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I204250578",
+              "name": "University of California, Irvine",
+              "country": "US",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "artificial neural networks",
+            "environmental impact assessment",
+            "environmental regulation",
+            "infrastructure planning",
+            "national environmental policy act (nepa)",
+            "natural language processing"
+          ]
+        }
       }
     },
     {
@@ -570,7 +956,68 @@
         "application": "Segmentação de áreas de mineração a céu aberto",
         "context": "Monitoramento ambiental em larga escala (Planalto Qinghai-Tibete)",
         "applicationArea": "Coleta de Dados",
-        "reference": "Hong et al., 2025"
+        "reference": "Hong et al., 2025",
+        "externalArticleKey": "33",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1109/JSTARS.2025.3595592",
+          "publicationDate": "2025-01-01",
+          "source": "elsevier",
+          "sourceName": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+          "language": "en",
+          "citationCount": 1,
+          "fwci": 4.81974515,
+          "openAccess": {
+            "isOa": true,
+            "status": "gold",
+            "license": "cc-by"
+          },
+          "authors": [
+            {
+              "name": "Fangzhou Hong",
+              "orcid": "0000-0003-2412-1141",
+              "isCorresponding": true
+            },
+            {
+              "name": "Guojin He",
+              "orcid": "0000-0001-7225-7276"
+            },
+            {
+              "name": "Guizhou Wang",
+              "orcid": "0000-0002-2347-8416"
+            },
+            {
+              "name": "Zhaoming Zhang",
+              "orcid": "0000-0002-8779-2738"
+            },
+            {
+              "name": "Yan Peng",
+              "orcid": "0000-0002-1115-2443"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I19820366",
+              "name": "Chinese Academy of Sciences",
+              "country": "CN",
+              "type": "government"
+            },
+            {
+              "id": "https://openalex.org/I4210137199",
+              "name": "Aerospace Information Research Institute",
+              "country": "CN",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "convolutional neural network (cnn)-transformer hybrid",
+            "land use mapping",
+            "open-pit mining",
+            "qinghai-tibet plateau",
+            "remote sensing",
+            "semantic segmentation"
+          ]
+        }
       }
     },
     {
@@ -584,7 +1031,94 @@
         "application": "Detecção de contaminação de água subterrânea por lixiviados",
         "context": "Diagnóstico de contaminação em poços de monitoramento (Coreia do Sul)",
         "applicationArea": "Análise Preditiva",
-        "reference": "Oh et al., 2023"
+        "reference": "Oh et al., 2023",
+        "externalArticleKey": "17",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.jhazmat.2023.131712",
+          "publicationDate": "2023-05-26",
+          "source": "elsevier",
+          "sourceName": "Journal of Hazardous Materials",
+          "language": "en",
+          "citationCount": 9,
+          "fwci": 2.41437652,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Junseop Oh",
+              "orcid": "0000-0001-7027-9092"
+            },
+            {
+              "name": "Ho-Rim Kim",
+              "orcid": "0000-0001-6503-6862"
+            },
+            {
+              "name": "Soonyoung Yu",
+              "orcid": "0000-0001-6934-0482",
+              "isCorresponding": true
+            },
+            {
+              "name": "Kyoung‐Ho Kim",
+              "orcid": "0000-0002-2236-3748"
+            },
+            {
+              "name": "Jeong‐Ho Lee",
+              "orcid": "0000-0002-5762-7993"
+            },
+            {
+              "name": "Sunhwa Park",
+              "orcid": "0000-0002-8464-9362"
+            },
+            {
+              "name": "Hyun-Koo Kim",
+              "orcid": "0000-0001-9443-2872"
+            },
+            {
+              "name": "Hyunkoo Kim",
+              "isCorresponding": true
+            },
+            {
+              "name": "Seong-Taek Yun",
+              "isCorresponding": true
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I197347611",
+              "name": "Korea University",
+              "country": "KR",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I4210142421",
+              "name": "Korea Institute of Geoscience and Mineral Resources",
+              "country": "KR",
+              "type": "facility"
+            },
+            {
+              "id": "https://openalex.org/I64946176",
+              "name": "National Institute of Environmental Research",
+              "country": "KR",
+              "type": "government"
+            },
+            {
+              "id": "https://openalex.org/I4210090949",
+              "name": "Korea Environment Institute",
+              "country": "KR",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "carcass leachate leakage",
+            "classification model",
+            "data labeling and feature selection",
+            "groundwater contamination",
+            "livestock burial"
+          ]
+        }
       }
     },
     {
@@ -598,7 +1132,84 @@
         "application": "Análise de poluição do ar e cobertura vegetal",
         "context": "Planejamento urbano e gestão da poluição (Dhaka, Bangladesh)",
         "applicationArea": "Análise Preditiva",
-        "reference": "Rahaman et al., 2025"
+        "reference": "Rahaman et al., 2025",
+        "externalArticleKey": "40",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.jenvman.2025.124323",
+          "publicationDate": "2025-02-05",
+          "source": "elsevier",
+          "sourceName": "Journal of Environmental Management",
+          "language": "en",
+          "citationCount": 8,
+          "fwci": 16.33148972,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Mashoukur Rahaman",
+              "orcid": "0000-0002-5182-2683",
+              "isCorresponding": true
+            },
+            {
+              "name": "Jane Southworth",
+              "orcid": "0000-0002-7246-7879"
+            },
+            {
+              "name": "Amobichukwu Chukwudi Amanambu",
+              "orcid": "0000-0001-6379-1979"
+            },
+            {
+              "name": "Bewuket B. Tefera",
+              "orcid": "0000-0001-7301-2561"
+            },
+            {
+              "name": "Ali Alruzuq",
+              "orcid": "0000-0003-1278-8889"
+            },
+            {
+              "name": "Mohammad Reza Safaei"
+            },
+            {
+              "name": "Md. Muyeed Hasan"
+            },
+            {
+              "name": "Audrey Culver Smith"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I33213144",
+              "name": "University of Florida",
+              "country": "US",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I17301866",
+              "name": "University of Alabama",
+              "country": "US",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I240666556",
+              "name": "Imam Mohammad ibn Saud Islamic University",
+              "country": "SA",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "air pollution",
+            "deep learning",
+            "geoai",
+            "machine learning",
+            "remote sensing",
+            "segmentation models",
+            "vegetation loss",
+            "vegetation prediction"
+          ]
+        }
       }
     },
     {
@@ -612,7 +1223,80 @@
         "application": "Detecção de navios e previsão de emissões de carbono",
         "context": "Monitoramento ambiental marinho e neutralidade de carbono",
         "applicationArea": "Análise Preditiva",
-        "reference": "Wang et al., 2024"
+        "reference": "Wang et al., 2024",
+        "externalArticleKey": "99",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.envres.2024.118591",
+          "publicationDate": "2024-02-29",
+          "source": "elsevier",
+          "sourceName": "Environmental Research",
+          "language": "en",
+          "citationCount": 14,
+          "fwci": 8.03297753,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Bin Wang",
+              "orcid": "0000-0003-0893-0539",
+              "isCorresponding": true
+            },
+            {
+              "name": "Lijuan Hua",
+              "orcid": "0000-0003-2878-0240"
+            },
+            {
+              "name": "Amal M. Al‐Mohaimeed",
+              "orcid": "0000-0002-4883-4878"
+            },
+            {
+              "name": "Ning Zhao",
+              "orcid": "0000-0002-1878-2974"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210096899",
+              "name": "Jiangsu University of Science and Technology",
+              "country": "CN",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I4210133131",
+              "name": "Chinese Academy of Meteorological Sciences",
+              "country": "CN",
+              "type": "facility"
+            },
+            {
+              "id": "https://openalex.org/I141301092",
+              "name": "China Meteorological Administration",
+              "country": "CN",
+              "type": "government"
+            },
+            {
+              "id": "https://openalex.org/I28022161",
+              "name": "King Saud University",
+              "country": "SA",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I1315852903",
+              "name": "Japan Agency for Marine-Earth Science and Technology",
+              "country": "JP",
+              "type": "facility"
+            }
+          ],
+          "keywords": [
+            "environment evaluation",
+            "machine learning",
+            "ocean carbon emission",
+            "remote sensing",
+            "yolo"
+          ]
+        }
       }
     },
     {
@@ -626,7 +1310,109 @@
         "application": "Avaliações ambientais com explicabilidade",
         "context": "Identificação de indicadores ambientais mais influentes",
         "applicationArea": "Interpretação de Dados",
-        "reference": "Xu et al., 2024"
+        "reference": "Xu et al., 2024",
+        "externalArticleKey": "103",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.ese.2024.100479",
+          "publicationDate": "2024-08-24",
+          "source": "elsevier",
+          "sourceName": "Environmental Science and Ecotechnology",
+          "language": "en",
+          "citationCount": 11,
+          "fwci": 7.02656404,
+          "openAccess": {
+            "isOa": true,
+            "status": "gold",
+            "license": "cc-by-nc-nd"
+          },
+          "authors": [
+            {
+              "name": "Haoli Xu",
+              "orcid": "0000-0002-8824-1356",
+              "isCorresponding": true
+            },
+            {
+              "name": "Xing Yang",
+              "orcid": "0000-0002-1777-0242"
+            },
+            {
+              "name": "Yihua Hu",
+              "orcid": "0000-0002-7134-3065"
+            },
+            {
+              "name": "Daqing Wang",
+              "orcid": "0000-0002-8746-315X"
+            },
+            {
+              "name": "Zhenyu Liang",
+              "orcid": "0000-0002-2710-8850"
+            },
+            {
+              "name": "Hua Mu",
+              "orcid": "0000-0003-2495-5146"
+            },
+            {
+              "name": "Yangyang Wang",
+              "orcid": "0009-0000-9399-9279"
+            },
+            {
+              "name": "Liang Shi",
+              "orcid": "0000-0001-9465-3026"
+            },
+            {
+              "name": "Haoqi Gao",
+              "orcid": "0000-0001-6850-1301"
+            },
+            {
+              "name": "Daoqing Song"
+            },
+            {
+              "name": "Zijian Cheng"
+            },
+            {
+              "name": "Zhao Lu"
+            },
+            {
+              "name": "Xiaoning Zhao"
+            },
+            {
+              "name": "Jun Lu"
+            },
+            {
+              "name": "Bingwen Wang"
+            },
+            {
+              "name": "Zhiyang Hu"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I170215575",
+              "name": "National University of Defense Technology",
+              "country": "CN",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I4210163363",
+              "name": "PLA Army Engineering University",
+              "country": "CN",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I16365422",
+              "name": "Hefei University of Technology",
+              "country": "CN",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "explainable ai",
+            "intelligent environmental assessment",
+            "multi-source data",
+            "transformer"
+          ]
+        }
       }
     },
     {
@@ -640,7 +1426,65 @@
         "application": "Análise de risco e incerteza em AIA",
         "context": "Modelagem de cenários complexos e relações de causa-efeito",
         "applicationArea": "Análise Preditiva",
-        "reference": "Moe et al., 2020"
+        "reference": "Moe et al., 2020",
+        "externalArticleKey": "6",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1002/ieam.4369",
+          "publicationDate": "2020-11-01",
+          "source": "elsevier",
+          "sourceName": "Integrated Environmental Assessment and Management",
+          "language": "en",
+          "citationCount": 92,
+          "fwci": 8.37099427,
+          "openAccess": {
+            "isOa": true,
+            "status": "hybrid",
+            "license": "cc-by-nc"
+          },
+          "authors": [
+            {
+              "name": "S. Jannicke Moe",
+              "orcid": "0000-0002-3681-3551",
+              "isCorresponding": true
+            },
+            {
+              "name": "John F. Carriger",
+              "orcid": "0000-0002-6275-8752"
+            },
+            {
+              "name": "Miriam Glendell",
+              "orcid": "0000-0003-0110-9879"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I2802939387",
+              "name": "Norwegian Institute for Water Research",
+              "country": "NO",
+              "type": "nonprofit"
+            },
+            {
+              "id": "https://openalex.org/I1302368450",
+              "name": "Environmental Protection Agency",
+              "country": "US",
+              "type": "government"
+            },
+            {
+              "id": "https://openalex.org/I15477984",
+              "name": "James Hutton Institute",
+              "country": "GB",
+              "type": "funder"
+            }
+          ],
+          "keywords": [
+            "bayesian networks",
+            "causal modeling",
+            "ecological risk assessment",
+            "environmental risk assessment",
+            "probabilistic modeling"
+          ]
+        }
       }
     },
     {
@@ -654,7 +1498,84 @@
         "application": "Rastreamento de degradação de vegetação e poluição do ar",
         "context": "Gestão ambiental urbana com dados de sensoriamento remoto",
         "applicationArea": "Análise Preditiva",
-        "reference": "Rahaman et al., 2025"
+        "reference": "Rahaman et al., 2025",
+        "externalArticleKey": "40",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.jenvman.2025.124323",
+          "publicationDate": "2025-02-05",
+          "source": "elsevier",
+          "sourceName": "Journal of Environmental Management",
+          "language": "en",
+          "citationCount": 8,
+          "fwci": 16.33148972,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Mashoukur Rahaman",
+              "orcid": "0000-0002-5182-2683",
+              "isCorresponding": true
+            },
+            {
+              "name": "Jane Southworth",
+              "orcid": "0000-0002-7246-7879"
+            },
+            {
+              "name": "Amobichukwu Chukwudi Amanambu",
+              "orcid": "0000-0001-6379-1979"
+            },
+            {
+              "name": "Bewuket B. Tefera",
+              "orcid": "0000-0001-7301-2561"
+            },
+            {
+              "name": "Ali Alruzuq",
+              "orcid": "0000-0003-1278-8889"
+            },
+            {
+              "name": "Mohammad Reza Safaei"
+            },
+            {
+              "name": "Md. Muyeed Hasan"
+            },
+            {
+              "name": "Audrey Culver Smith"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I33213144",
+              "name": "University of Florida",
+              "country": "US",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I17301866",
+              "name": "University of Alabama",
+              "country": "US",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I240666556",
+              "name": "Imam Mohammad ibn Saud Islamic University",
+              "country": "SA",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "air pollution",
+            "deep learning",
+            "geoai",
+            "machine learning",
+            "remote sensing",
+            "segmentation models",
+            "vegetation loss",
+            "vegetation prediction"
+          ]
+        }
       }
     },
     {
@@ -668,7 +1589,40 @@
         "application": "Otimização de processos de AIA e governança ambiental",
         "context": "Sistema Digital Environmental Impact Assessment (DEIA) na Coreia",
         "applicationArea": "Gestão de Dados",
-        "reference": "Kim et al., 2024"
+        "reference": "Kim et al., 2024",
+        "externalArticleKey": "108",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.techsoc.2024.102615",
+          "publicationDate": "2024-05-31",
+          "source": "elsevier",
+          "sourceName": "Technology in Society",
+          "language": "en",
+          "citationCount": 11,
+          "fwci": 10.99643386,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Kim E.S."
+            }
+          ],
+          "institutions": [
+            {
+              "name": "Kyung Hee University",
+              "country": "South Korea"
+            }
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "big data",
+            "data science",
+            "environmental regulation",
+            "evidence-based policy"
+          ]
+        }
       }
     },
     {
@@ -682,7 +1636,57 @@
         "application": "Tomada de decisão em projetos de energia renovável",
         "context": "Priorização de impactos ambientais em investimentos sustentáveis",
         "applicationArea": "Análise Preditiva",
-        "reference": "Dinçer et al., 2025"
+        "reference": "Dinçer et al., 2025",
+        "externalArticleKey": "113",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.eswa.2025.128051",
+          "publicationDate": "2025-05-09",
+          "source": "elsevier",
+          "sourceName": "Expert Systems with Applications",
+          "language": "en",
+          "citationCount": 1,
+          "fwci": 5.88153818,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Hasan Dınçer",
+              "orcid": "0000-0002-8072-031X",
+              "isCorresponding": true
+            },
+            {
+              "name": "Serkan Eti",
+              "orcid": "0000-0002-4791-4091"
+            },
+            {
+              "name": "Yaşar Gökalp",
+              "orcid": "0000-0002-3390-4597"
+            },
+            {
+              "name": "Serhat Yüksel",
+              "orcid": "0000-0002-9858-1266"
+            }
+          ],
+          "institutions": [
+            {
+              "name": "İstanbul Medipol Üniversitesi",
+              "country": "Turkey"
+            },
+            {
+              "name": "Khazar University",
+              "country": "Azerbaijan"
+            }
+          ],
+          "keywords": [
+            "environmental impact",
+            "molecular fuzzy",
+            "q-learning",
+            "renewable energy projects"
+          ]
+        }
       }
     },
     {
@@ -696,7 +1700,57 @@
         "application": "Previsão de impacto de poluição do solo",
         "context": "Gestão ambiental em regiões com escassez de dados (Nigéria)",
         "applicationArea": "Análise Preditiva",
-        "reference": "Anifowose et al., 2024"
+        "reference": "Anifowose et al., 2024",
+        "externalArticleKey": "55",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.envadv.2024.100554",
+          "publicationDate": "2024-06-05",
+          "source": "elsevier",
+          "sourceName": "Environmental Advances",
+          "language": "en",
+          "citationCount": 16,
+          "fwci": 24.44240422,
+          "openAccess": {
+            "isOa": true,
+            "status": "gold",
+            "license": "cc-by"
+          },
+          "authors": [
+            {
+              "name": "Babatunde Anifowose",
+              "orcid": "0000-0001-5541-3302",
+              "isCorresponding": true
+            },
+            {
+              "name": "Fatai Anifowose",
+              "orcid": "0000-0002-1823-8338"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I73417466",
+              "name": "Coventry University",
+              "country": "GB",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I4210143841",
+              "name": "Saudi Aramco (Saudi Arabia)",
+              "country": "SA",
+              "type": "company"
+            }
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "environmental data science",
+            "environmental impact assessment",
+            "machine learning",
+            "multivariate linear regression",
+            "soil quality",
+            "sustainability"
+          ]
+        }
       }
     },
     {
@@ -710,7 +1764,111 @@
         "application": "Avaliação completa do ciclo de vida dos impactos",
         "context": "Método que produz valores quantificáveis e reproduzíveis de impacto e risco",
         "applicationArea": "Coleta de Dados",
-        "reference": "Wilson et al., 2017"
+        "reference": "Wilson et al., 2017",
+        "externalArticleKey": "29",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.3390/environments4040095",
+          "publicationDate": "2017-12-18",
+          "source": "elsevier",
+          "sourceName": "Environments",
+          "language": "en",
+          "citationCount": 17,
+          "fwci": 2.4758775,
+          "openAccess": {
+            "isOa": true,
+            "status": "gold",
+            "license": "cc-by"
+          },
+          "authors": [
+            {
+              "name": "Jeff Wilson",
+              "orcid": "0000-0002-7536-6598",
+              "isCorresponding": true
+            },
+            {
+              "name": "Shawn Hinz",
+              "orcid": "0000-0001-7451-8310"
+            },
+            {
+              "name": "Jennifer Coston‐Guarini",
+              "orcid": "0000-0002-4462-7863"
+            },
+            {
+              "name": "Camille Mazé"
+            },
+            {
+              "name": "Jean‐Marc Guarini"
+            },
+            {
+              "name": "Laurent Chauvaud"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I32597200",
+              "name": "Ghent University",
+              "country": "BE",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I4210144707",
+              "name": "Observatoire Océanologique de Banyuls-sur-Mer",
+              "country": "FR",
+              "type": "facility"
+            },
+            {
+              "id": "https://openalex.org/I4210158675",
+              "name": "Laboratoire d'Ecogéochimie des Environnements Benthiques",
+              "country": "FR",
+              "type": "facility"
+            },
+            {
+              "id": "https://openalex.org/I154202486",
+              "name": "Ifremer",
+              "country": "FR",
+              "type": "facility"
+            },
+            {
+              "id": "https://openalex.org/I4210162872",
+              "name": "Laboratoire des Sciences de l'Environnement Marin",
+              "country": "FR",
+              "type": "facility"
+            },
+            {
+              "id": "https://openalex.org/I4210166444",
+              "name": "Institut de Recherche pour le Développement",
+              "country": "FR",
+              "type": "government"
+            },
+            {
+              "id": "https://openalex.org/I161929037",
+              "name": "Université de Bretagne Occidentale",
+              "country": "FR",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I4210157108",
+              "name": "Institut Universitaire Européen de la Mer",
+              "country": "FR",
+              "type": "facility"
+            },
+            {
+              "id": "https://openalex.org/I1294671590",
+              "name": "Centre National de la Recherche Scientifique",
+              "country": "FR",
+              "type": "government"
+            }
+          ],
+          "keywords": [
+            "baseline survey",
+            "ecosystem modeling",
+            "ecosystem-based environmental assessment",
+            "environmental impact assessment",
+            "environmental sensing technology",
+            "hydrodynamic modeling"
+          ]
+        }
       }
     },
     {
@@ -724,7 +1882,57 @@
         "application": "Identificação rápida de áreas sensíveis e valores de biodiversidade",
         "context": "Suporte à aplicação da Hierarquia de Mitigação",
         "applicationArea": "Gestão de Dados",
-        "reference": "Pelucchi et al., 2020"
+        "reference": "Pelucchi et al., 2020",
+        "externalArticleKey": "34",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.2118/199415-ms",
+          "publicationDate": "2020-03-04",
+          "source": "elsevier",
+          "language": "en",
+          "citationCount": 3,
+          "fwci": 1.2380279,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Marco Pelucchi",
+              "orcid": "0000-0003-1560-8572",
+              "isCorresponding": true
+            },
+            {
+              "name": "Jason Sali"
+            },
+            {
+              "name": "Victoria Gerber"
+            },
+            {
+              "name": "Andrew D. S. Cameron"
+            },
+            {
+              "name": "Cyril Mickiewicz"
+            },
+            {
+              "name": "Paola Maria Pedroni"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I150264550",
+              "name": "Eni (Italy)",
+              "country": "IT",
+              "type": "company"
+            },
+            {
+              "id": "https://openalex.org/I1280576195",
+              "name": "Fauna and Flora International",
+              "country": "GB",
+              "type": "nonprofit"
+            }
+          ]
+        }
       }
     },
     {
@@ -738,7 +1946,89 @@
         "application": "Identificação de ameaças ambientais e monitoramento de biodiversidade",
         "context": "Análise de diversidade de espécies sem necessidade de espécimes",
         "applicationArea": "Coleta de Dados",
-        "reference": "Ritter et al., 2017"
+        "reference": "Ritter et al., 2017",
+        "externalArticleKey": "12",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.biocon.2016.12.031",
+          "publicationDate": "2017-01-08",
+          "source": "elsevier",
+          "sourceName": "Biological Conservation",
+          "language": "en",
+          "citationCount": 101,
+          "fwci": 6.66228176,
+          "openAccess": {
+            "isOa": true,
+            "status": "hybrid",
+            "license": "cc-by"
+          },
+          "authors": [
+            {
+              "name": "Camila Duarte Ritter",
+              "orcid": "0000-0002-3371-7425",
+              "isCorresponding": true
+            },
+            {
+              "name": "Gabriel Beleia McCrate",
+              "orcid": "0000-0002-8052-0107"
+            },
+            {
+              "name": "R. Henrik Nilsson",
+              "orcid": "0000-0003-3672-9082"
+            },
+            {
+              "name": "Philip M. Fearnside",
+              "orcid": "0000-0001-7983-630X"
+            },
+            {
+              "name": "Ulrika Palme",
+              "orcid": "0000-0003-1842-9297"
+            },
+            {
+              "name": "Alexandre Antonelli"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I881427289",
+              "name": "University of Gothenburg",
+              "country": "SE",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I3025081897",
+              "name": "Göteborgs Stads",
+              "country": "SE",
+              "type": "other"
+            },
+            {
+              "id": "https://openalex.org/I4210152222",
+              "name": "National Education and Research Network",
+              "country": "BR",
+              "type": "other"
+            },
+            {
+              "id": "https://openalex.org/I187079419",
+              "name": "Instituto Nacional de Pesquisas da Amazônia",
+              "country": "BR",
+              "type": "facility"
+            },
+            {
+              "id": "https://openalex.org/I66862912",
+              "name": "Chalmers University of Technology",
+              "country": "SE",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "amazonia",
+            "belo monte dam",
+            "br-319 highway",
+            "brazil",
+            "juruti mine",
+            "taxonomic inventories"
+          ]
+        }
       }
     },
     {
@@ -752,7 +2042,62 @@
         "application": "Monitoramento e avaliação da qualidade do ambiente ecológico",
         "context": "Reflexão de mudanças ecológicas reais com fundamentação científica",
         "applicationArea": "Análise Preditiva",
-        "reference": "Jiang et al., 2021"
+        "reference": "Jiang et al., 2021",
+        "externalArticleKey": "116",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1007/s11356-021-15262-x",
+          "publicationDate": "2021-07-15",
+          "source": "elsevier",
+          "sourceName": "Environmental Science and Pollution Research",
+          "language": "en",
+          "citationCount": 54,
+          "fwci": 4.88163164,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Fang Jiang",
+              "orcid": "0000-0002-6377-8130"
+            },
+            {
+              "name": "Yaqiu Zhang",
+              "orcid": "0000-0002-0819-0799"
+            },
+            {
+              "name": "Junyao Li",
+              "orcid": "0000-0002-8437-1612"
+            },
+            {
+              "name": "Zhiyong Sun",
+              "orcid": "0000-0002-2129-6272",
+              "isCorresponding": true
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210143016",
+              "name": "Changchun Institute of Technology",
+              "country": "CN",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I4210147197",
+              "name": "Qinghai Meteorological Bureau",
+              "country": "CN",
+              "type": "government"
+            }
+          ],
+          "keywords": [
+            "eco-environment",
+            "eigenvector",
+            "principal",
+            "regional scale",
+            "remote sensing ecological index"
+          ]
+        }
       }
     },
     {
@@ -766,7 +2111,54 @@
         "application": "Otimização de esquemas alternativos em planejamento hidrelétrico",
         "context": "Redução de impactos socioeconômicos e aumento de geração de energia",
         "applicationArea": "Análise Preditiva",
-        "reference": "Wu et al., 2019"
+        "reference": "Wu et al., 2019",
+        "externalArticleKey": "104",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.egyr.2019.11.068",
+          "publicationDate": "2020-02-01",
+          "source": "elsevier",
+          "sourceName": "Energy Reports",
+          "language": "en",
+          "citationCount": 8,
+          "fwci": 1.42741557,
+          "openAccess": {
+            "isOa": true,
+            "status": "gold",
+            "license": "cc-by-nc-nd"
+          },
+          "authors": [
+            {
+              "name": "Jiapeng Wu",
+              "orcid": "0000-0001-9796-8234",
+              "isCorresponding": true
+            },
+            {
+              "name": "Laisheng Liu",
+              "orcid": "0000-0001-6453-3736"
+            },
+            {
+              "name": "Jijun Gao",
+              "orcid": "0000-0002-4255-3960"
+            },
+            {
+              "name": "Qiwen Wang"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210092032",
+              "name": "China Institute of Water Resources and Hydropower Research",
+              "country": "CN",
+              "type": "facility"
+            }
+          ],
+          "keywords": [
+            "alternative schemes",
+            "cascade hydropower",
+            "particle swarm optimization (pso)"
+          ]
+        }
       }
     },
     {
@@ -780,7 +2172,68 @@
         "application": "Análise territorial e avaliação de alternativas de projeto",
         "context": "Suporte à tomada de decisão com múltiplas variáveis ambientais",
         "applicationArea": "Gestão de Dados",
-        "reference": "Placidi et al., 2024"
+        "reference": "Placidi et al., 2024",
+        "externalArticleKey": "93",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.3390/urbansci8010019",
+          "publicationDate": "2024-03-12",
+          "source": "elsevier",
+          "sourceName": "Urban Science",
+          "language": "en",
+          "citationCount": 3,
+          "fwci": 4.20632465,
+          "openAccess": {
+            "isOa": true,
+            "status": "gold",
+            "license": "cc-by"
+          },
+          "authors": [
+            {
+              "name": "Valeria Placidi",
+              "orcid": "0000-0002-4748-8256"
+            },
+            {
+              "name": "Michele Cenci"
+            },
+            {
+              "name": "Francesco Castellani",
+              "isCorresponding": true
+            },
+            {
+              "name": "Marta Falasca"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I27483092",
+              "name": "University of Perugia",
+              "country": "IT",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I4210117053",
+              "name": "Regione Puglia",
+              "country": "IT",
+              "type": "government"
+            },
+            {
+              "id": "https://openalex.org/I4392738109",
+              "name": "Regione Umbria",
+              "type": "government"
+            }
+          ],
+          "keywords": [
+            "agenda 2030",
+            "buffer zone",
+            "cumulative impact mapping",
+            "environmental assessment",
+            "land-use suitability analysis",
+            "sustainable development",
+            "urban planning",
+            "urban sustainability"
+          ]
+        }
       }
     },
     {
@@ -794,7 +2247,50 @@
         "application": "Avaliação quantitativa de impactos em descomissionamento offshore",
         "context": "Módulos ECES, HADES, CIES para análise integrada",
         "applicationArea": "Análise Preditiva",
-        "reference": "Li et al., 2023"
+        "reference": "Li et al., 2023",
+        "externalArticleKey": "72",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.ocecoaman.2023.106732",
+          "publicationDate": "2023-08-01",
+          "source": "elsevier",
+          "sourceName": "Ocean & Coastal Management",
+          "language": "en",
+          "citationCount": 5,
+          "fwci": 1.3623494,
+          "openAccess": {
+            "isOa": true,
+            "status": "hybrid",
+            "license": "cc-by-nc-nd"
+          },
+          "authors": [
+            {
+              "name": "Yihong Li",
+              "orcid": "0000-0001-7214-7747",
+              "isCorresponding": true
+            },
+            {
+              "name": "Zhiqiang Hu",
+              "orcid": "0000-0003-0806-7616"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I84884186",
+              "name": "Newcastle University",
+              "country": "GB",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "cies",
+            "eces",
+            "hades",
+            "mcda",
+            "modular designing",
+            "offshore decommissioning"
+          ]
+        }
       }
     },
     {
@@ -808,7 +2304,42 @@
         "application": "Síntese de dados de monitoramento ambiental e cenários futuros",
         "context": "Comunicação de descobertas aos tomadores de decisão",
         "applicationArea": "Análise Preditiva",
-        "reference": "Durden, 2025"
+        "reference": "Durden, 2025",
+        "externalArticleKey": "96",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.envsci.2025.104018",
+          "publicationDate": "2025-02-01",
+          "source": "elsevier",
+          "sourceName": "Environmental Science & Policy",
+          "language": "en",
+          "citationCount": 5,
+          "fwci": 31.42021904,
+          "openAccess": {
+            "isOa": true,
+            "status": "hybrid",
+            "license": "cc-by-nc-nd"
+          },
+          "authors": [
+            {
+              "name": "Durden J.M."
+            }
+          ],
+          "institutions": [
+            {
+              "name": "National Oceanography Centre Southampton",
+              "country": "United Kingdom"
+            }
+          ],
+          "keywords": [
+            "big data",
+            "biodiversity",
+            "conservation",
+            "environmental impact assessment",
+            "evidence-based",
+            "protected areas"
+          ]
+        }
       }
     },
     {
@@ -822,7 +2353,63 @@
         "application": "Tomada de decisões em problemas espaciais complexos",
         "context": "Seleção de locais, avaliação de impacto e descoberta de conhecimento",
         "applicationArea": "Gestão de Dados",
-        "reference": "Irfan et al., 2017"
+        "reference": "Irfan et al., 2017",
+        "externalArticleKey": "76",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.grj.2017.08.003",
+          "publicationDate": "2017-08-25",
+          "source": "elsevier",
+          "sourceName": "GeoResJ",
+          "language": "en",
+          "citationCount": 10,
+          "fwci": 5.59046215,
+          "openAccess": {
+            "isOa": true,
+            "status": "green",
+            "license": "other-oa"
+          },
+          "authors": [
+            {
+              "name": "Muhammad Irfan",
+              "orcid": "0000-0001-7991-1154",
+              "isCorresponding": true
+            },
+            {
+              "name": "Aleksandra Koj",
+              "orcid": "0000-0002-5104-5781"
+            },
+            {
+              "name": "Majid Sedighi",
+              "orcid": "0000-0002-3951-0409"
+            },
+            {
+              "name": "Hywel Rhys Thomas"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I79510175",
+              "name": "Cardiff University",
+              "country": "GB",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I28407311",
+              "name": "University of Manchester",
+              "country": "GB",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "analytical hierarchy process",
+            "general regression neural networks",
+            "rapid impact assessment matrix",
+            "self-organizing maps",
+            "site impact assessment",
+            "site selection"
+          ]
+        }
       }
     },
     {
@@ -836,7 +2423,56 @@
         "application": "Avaliação Ambiental Estratégica (AAE)",
         "context": "Identificação e caracterização de impactos potenciais",
         "applicationArea": "Gestão de Dados",
-        "reference": "González et al., 2018"
+        "reference": "González et al., 2018",
+        "externalArticleKey": "71",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.envsoft.2018.10.014",
+          "publicationDate": "2018-10-30",
+          "source": "elsevier",
+          "sourceName": "Environmental Modelling & Software",
+          "language": "en",
+          "citationCount": 14,
+          "fwci": 2.59266583,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Ainhoa González",
+              "orcid": "0000-0002-9334-3066",
+              "isCorresponding": true
+            },
+            {
+              "name": "Justin Gleeson"
+            },
+            {
+              "name": "Eoghan McCarthy"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I100930933",
+              "name": "University College Dublin",
+              "country": "IE",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I157286207",
+              "name": "National University of Ireland, Maynooth",
+              "country": "IE",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "decision support tool",
+            "geographic information systems",
+            "impact assessment",
+            "multi-criteria assessment",
+            "online geoprocessing"
+          ]
+        }
       }
     },
     {
@@ -850,7 +2486,40 @@
         "application": "Definição espacial de características e terras sensíveis",
         "context": "Base para discussões de planejamento setorial em AAE",
         "applicationArea": "Gestão de Dados",
-        "reference": "González Del Campo et al., 2017"
+        "reference": "González Del Campo et al., 2017",
+        "externalArticleKey": "68",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.eiar.2017.06.010",
+          "publicationDate": "2017-07-03",
+          "source": "elsevier",
+          "sourceName": "Environmental Impact Assessment Review",
+          "language": "en",
+          "citationCount": 47,
+          "fwci": 13.20468003,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "González Del Campo A."
+            }
+          ],
+          "institutions": [
+            {
+              "name": "University College Dublin",
+              "country": "Ireland"
+            }
+          ],
+          "keywords": [
+            "baseline environment",
+            "online geoprocessing",
+            "sensitivity",
+            "spatial analysis",
+            "strategic environmental assessment"
+          ]
+        }
       }
     },
     {
@@ -864,7 +2533,49 @@
         "application": "Comunicação de resultados de AIA ao público não técnico",
         "context": "Promoção de participação pública e transparência",
         "applicationArea": "Participação Pública",
-        "reference": "Northmore et al., 2022"
+        "reference": "Northmore et al., 2022",
+        "externalArticleKey": "80",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.eiar.2021.106689",
+          "publicationDate": "2021-10-21",
+          "source": "elsevier",
+          "sourceName": "Environmental Impact Assessment Review",
+          "language": "en",
+          "citationCount": 21,
+          "fwci": 4.03384647,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Laurel Northmore",
+              "orcid": "0000-0002-7648-7922"
+            },
+            {
+              "name": "Malcolm D. Hudson",
+              "isCorresponding": true
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I43439940",
+              "name": "University of Southampton",
+              "country": "GB",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "consultation",
+            "digital inclusion",
+            "digital literacy",
+            "public engagement",
+            "public participatory geographical information systems (ppgis)",
+            "storymaps",
+            "usability test"
+          ]
+        }
       }
     },
     {
@@ -878,7 +2589,89 @@
         "application": "Aceleração de agendas de desenvolvimento sustentável",
         "context": "Minimização de impactos negativos em projetos",
         "applicationArea": "Análise Preditiva",
-        "reference": "Omwoma et al., 2017"
+        "reference": "Omwoma et al., 2017",
+        "externalArticleKey": "24",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.scp.2017.10.001",
+          "publicationDate": "2017-10-13",
+          "source": "elsevier",
+          "sourceName": "Sustainable Chemistry and Pharmacy",
+          "language": "en",
+          "citationCount": 38,
+          "fwci": 1.74083692,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Solomon Omwoma",
+              "orcid": "0000-0002-8316-1621",
+              "isCorresponding": true
+            },
+            {
+              "name": "Joseph O. Lalah",
+              "orcid": "0000-0002-6115-4076"
+            },
+            {
+              "name": "Stephan Kueppers",
+              "orcid": "0000-0001-8078-026X"
+            },
+            {
+              "name": "Yawei Wang",
+              "orcid": "0000-0002-8945-4062"
+            },
+            {
+              "name": "Dieter Lenoir"
+            },
+            {
+              "name": "Karl‐Werner Schramm"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I315205436",
+              "name": "Jaramogi Oginga Odinga University of Science and Technology",
+              "country": "KE",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I140287389",
+              "name": "Technical University of Kenya",
+              "country": "KE",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I171892758",
+              "name": "Forschungszentrum Jülich",
+              "country": "DE",
+              "type": "facility"
+            },
+            {
+              "id": "https://openalex.org/I19820366",
+              "name": "Chinese Academy of Sciences",
+              "country": "CN",
+              "type": "government"
+            },
+            {
+              "id": "https://openalex.org/I4210144289",
+              "name": "Research Center for Eco-Environmental Sciences",
+              "country": "CN",
+              "type": "facility"
+            },
+            {
+              "id": "https://openalex.org/I3018134672",
+              "name": "Helmholtz Zentrum München",
+              "country": "DE",
+              "type": "facility"
+            }
+          ],
+          "keywords": [
+            "african industrialization, technology in africa",
+            "circular economy"
+          ]
+        }
       }
     },
     {
@@ -892,7 +2685,58 @@
         "application": "Garantia de legitimidade e transparência em AIA",
         "context": "Identificação e resolução de conflitos ambientais",
         "applicationArea": "Participação Pública",
-        "reference": "Jiang et al., 2015"
+        "reference": "Jiang et al., 2015",
+        "externalArticleKey": "39",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1504/IJEP.2015.072108",
+          "publicationDate": "2015-01-01",
+          "source": "elsevier",
+          "sourceName": "International Journal of Environment and Pollution",
+          "language": "en",
+          "citationCount": 2,
+          "fwci": 1.16660072,
+          "openAccess": {
+            "isOa": false,
+            "status": "closed"
+          },
+          "authors": [
+            {
+              "name": "Li Jiang",
+              "orcid": "0000-0003-1091-6402",
+              "isCorresponding": true
+            },
+            {
+              "name": "Xianglin He",
+              "orcid": "0009-0004-6172-2864"
+            },
+            {
+              "name": "Erkki Hiltunen"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I75900474",
+              "name": "Hubei University",
+              "country": "CN",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I79765343",
+              "name": "University of Vaasa",
+              "country": "FI",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "environmental impact",
+            "environmental permitting",
+            "environmental pollution",
+            "environmental protection",
+            "finland",
+            "public participation"
+          ]
+        }
       }
     },
     {
@@ -906,7 +2750,67 @@
         "application": "Avaliação detalhada de impactos em ecossistemas",
         "context": "Monitoramento de larga escala com sensoriamento remoto avançado",
         "applicationArea": "Coleta de Dados",
-        "reference": "Lassalle et al., 2023"
+        "reference": "Lassalle et al., 2023",
+        "externalArticleKey": "25",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1016/j.envpol.2023.121859",
+          "publicationDate": "2023-05-23",
+          "source": "elsevier",
+          "sourceName": "Environmental Pollution",
+          "language": "en",
+          "citationCount": 25,
+          "fwci": 7.56270595,
+          "openAccess": {
+            "isOa": true,
+            "status": "hybrid",
+            "license": "cc-by-nc-nd"
+          },
+          "authors": [
+            {
+              "name": "Guillaume Lassalle",
+              "orcid": "0000-0002-3281-6464",
+              "isCorresponding": true
+            },
+            {
+              "name": "Rebecca Del’Papa Moreira Scafutto",
+              "orcid": "0000-0002-4948-5024"
+            },
+            {
+              "name": "Rafael André Lourenço",
+              "orcid": "0000-0002-1446-5074"
+            },
+            {
+              "name": "Paulo Mazzafera",
+              "orcid": "0000-0001-9073-4056"
+            },
+            {
+              "name": "Carlos Roberto de Souza Filho",
+              "orcid": "0000-0001-5366-3439"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I181391015",
+              "name": "Universidade Estadual de Campinas (UNICAMP)",
+              "country": "BR",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I17974374",
+              "name": "Universidade de São Paulo",
+              "country": "BR",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "artificial intelligence",
+            "hyperspectral imagery",
+            "lidar",
+            "mangrove",
+            "oil spill"
+          ]
+        }
       }
     },
     {
@@ -920,7 +2824,71 @@
         "application": "Simplificação de processos de AIA",
         "context": "Tomada de decisão mais rápida e informada com validação centralizada",
         "applicationArea": "Gestão de Dados",
-        "reference": "Bond et al., 2024"
+        "reference": "Bond et al., 2024",
+        "externalArticleKey": "110",
+        "matchMethod": "normalized_title",
+        "externalMetadata": {
+          "doi": "10.1080/14615517.2024.2426117",
+          "publicationDate": "2024-09-02",
+          "source": "elsevier",
+          "sourceName": "Impact Assessment and Project Appraisal",
+          "language": "en",
+          "citationCount": 12,
+          "fwci": 16.82529862,
+          "openAccess": {
+            "isOa": true,
+            "status": "bronze"
+          },
+          "authors": [
+            {
+              "name": "Alan Bond",
+              "orcid": "0000-0002-3809-5805",
+              "isCorresponding": true
+            },
+            {
+              "name": "François Retief",
+              "orcid": "0000-0001-7164-9593"
+            },
+            {
+              "name": "Reece Alberts",
+              "orcid": "0000-0001-6840-4405"
+            },
+            {
+              "name": "Claudine Roos",
+              "orcid": "0000-0002-6290-6129"
+            },
+            {
+              "name": "Dirk Cilliers",
+              "orcid": "0000-0001-9777-0463"
+            },
+            {
+              "name": "Jurie Moolman",
+              "orcid": "0000-0003-4848-5871"
+            }
+          ],
+          "institutions": [
+            {
+              "id": "https://openalex.org/I27765905",
+              "name": "North-West University",
+              "country": "ZA",
+              "type": "education"
+            },
+            {
+              "id": "https://openalex.org/I1118541",
+              "name": "University of East Anglia",
+              "country": "GB",
+              "type": "education"
+            }
+          ],
+          "keywords": [
+            "environmental impact assessment",
+            "externality tax",
+            "futures thinking",
+            "neoliberalism",
+            "satisficing",
+            "scoping"
+          ]
+        }
       }
     },
     {
