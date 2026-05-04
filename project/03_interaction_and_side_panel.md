@@ -15,6 +15,7 @@ Ao clicar em um nó:
 ### Clique em big_area
 Mostrar:
 - nome da grande área;
+- descrição da grande área;
 - quantidade de termos associados;
 - quantidade de artigos relacionados.
 

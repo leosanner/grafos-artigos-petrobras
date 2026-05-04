@@ -82,9 +82,12 @@ function NodeDetails({ node, payload }: { node: GraphNode; payload: GraphPayload
         .map((e) => e.data.target),
     );
     return (
-      <div className="flex gap-6">
-        <Counter label="Termos" value={termIds.length} />
-        <Counter label="Artigos" value={articleIds.size} />
+      <div className="flex flex-col gap-6">
+        {node.description && <Field label="Descrição">{node.description}</Field>}
+        <div className="flex gap-6">
+          <Counter label="Termos" value={termIds.length} />
+          <Counter label="Artigos" value={articleIds.size} />
+        </div>
       </div>
     );
   }
