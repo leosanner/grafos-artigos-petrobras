@@ -12,6 +12,11 @@ const EXTERNAL_ARTICLES_PATH = path.join(
   'articles_extended.json',
 );
 const TERMS_PATH = path.join(ROOT_DIR, 'external_data', 'terms_node.json');
+const BIG_AREAS_PATH = path.join(
+  ROOT_DIR,
+  'external_data',
+  'areas_explanation.json',
+);
 const INSTITUTIONS_PATH = path.join(
   ROOT_DIR,
   'external_data',
@@ -27,18 +32,29 @@ const MANUAL_OVERRIDES = {
   'article-01': '42',
 };
 
+const BIG_AREA_DESCRIPTION_ALIASES = {
+  'Ferramentas de Suporte à Tomada de Decisão': [
+    'Sistemas de Suporte à Decisão',
+  ],
+};
+
 async function main() {
   const graph = await readJson(GRAPH_PATH);
   const externalArticles = await readJson(EXTERNAL_ARTICLES_PATH);
   const termEntries = await readJson(TERMS_PATH);
+  const bigAreaDescriptions = await readJson(BIG_AREAS_PATH);
   const institutions = await readJson(INSTITUTIONS_PATH);
 
   validateGraph(graph);
   validateTermEntries(termEntries);
+  validateBigAreaDescriptions(bigAreaDescriptions);
 
+  const bigAreaNodes = graph.nodes.filter((node) => node?.data?.type === 'big_area');
   const articleNodes = graph.nodes.filter((node) => node?.data?.type === 'article');
   const termMetadataIndex = buildTermMetadataIndex(termEntries);
+  const bigAreaDescriptionIndex = buildBigAreaDescriptionIndex(bigAreaDescriptions);
   validateTermCoverage(graph, termMetadataIndex);
+  validateBigAreaCoverage(graph, bigAreaDescriptionIndex);
   const relationIndex = buildExternalTitleIndex(externalArticles);
   const relationPairs = articleNodes.map((node) =>
     resolveRelation(node.data, externalArticles, relationIndex),
@@ -50,6 +66,24 @@ async function main() {
   const enrichedGraph = {
     ...graph,
     nodes: graph.nodes.map((node) => {
+      if (node?.data?.type === 'big_area') {
+        const description = resolveBigAreaDescription(
+          node.data.label,
+          bigAreaDescriptionIndex,
+        );
+        if (!description) {
+          throw new Error(`Missing big-area description for "${node.data.label}"`);
+        }
+
+        return {
+          ...node,
+          data: {
+            ...node.data,
+            description,
+          },
+        };
+      }
+
       if (node?.data?.type === 'term') {
         const metadata = termMetadataIndex.get(node.data.label);
         if (!metadata) {
@@ -104,6 +138,7 @@ async function main() {
   console.log(`Manual override matches: ${manualMatches}`);
   console.log(`Unique external rows used: ${uniqueExternalKeys.size}`);
   console.log(`Term metadata merged: ${termMetadataIndex.size}`);
+  console.log(`Big-area descriptions merged: ${bigAreaNodes.length}`);
   console.log(`Audit file written to: ${path.relative(ROOT_DIR, RELATION_PAIRS_PATH)}`);
   console.log(`Graph file updated: ${path.relative(ROOT_DIR, GRAPH_PATH)}`);
 }
@@ -128,6 +163,25 @@ function buildExternalTitleIndex(externalArticles) {
   }
 
   return index;
+}
+
+function validateBigAreaDescriptions(bigAreaDescriptions) {
+  if (
+    !bigAreaDescriptions ||
+    Array.isArray(bigAreaDescriptions) ||
+    typeof bigAreaDescriptions !== 'object'
+  ) {
+    throw new Error('external_data/areas_explanation.json must be an object');
+  }
+
+  for (const [label, description] of Object.entries(bigAreaDescriptions)) {
+    if (!cleanText(label)) {
+      throw new Error('Big-area description entries must have a non-empty key');
+    }
+    if (!cleanText(description)) {
+      throw new Error(`Big-area description "${label}" is missing text`);
+    }
+  }
 }
 
 function validateTermEntries(termEntries) {
@@ -173,6 +227,26 @@ function buildTermMetadataIndex(termEntries) {
   return index;
 }
 
+function buildBigAreaDescriptionIndex(bigAreaDescriptions) {
+  const index = new Map();
+
+  for (const [label, description] of Object.entries(bigAreaDescriptions)) {
+    const normalizedLabel = normalizeText(label);
+    if (!normalizedLabel) {
+      throw new Error('Big-area description entries must have a non-empty key');
+    }
+    if (index.has(normalizedLabel)) {
+      throw new Error(
+        `Duplicate big-area description in external_data/areas_explanation.json: "${label}"`,
+      );
+    }
+
+    index.set(normalizedLabel, cleanText(description));
+  }
+
+  return index;
+}
+
 function validateTermCoverage(graph, termMetadataIndex) {
   const graphTermLabels = graph.nodes
     .filter((node) => node?.data?.type === 'term')
@@ -189,6 +263,48 @@ function validateTermCoverage(graph, termMetadataIndex) {
       throw new Error(`Term metadata has no matching graph node: "${technology}"`);
     }
   }
+}
+
+function validateBigAreaCoverage(graph, bigAreaDescriptionIndex) {
+  const graphBigAreaLabels = graph.nodes
+    .filter((node) => node?.data?.type === 'big_area')
+    .map((node) => node.data.label);
+  const usedKeys = new Set();
+
+  for (const label of graphBigAreaLabels) {
+    const resolvedKey = resolveBigAreaDescriptionKey(label, bigAreaDescriptionIndex);
+    if (!resolvedKey) {
+      throw new Error(`Missing big-area description for graph node "${label}"`);
+    }
+    usedKeys.add(resolvedKey);
+  }
+
+  for (const labelKey of bigAreaDescriptionIndex.keys()) {
+    if (!usedKeys.has(labelKey)) {
+      throw new Error(
+        `Big-area description has no matching graph node: "${labelKey}"`,
+      );
+    }
+  }
+}
+
+function resolveBigAreaDescription(label, bigAreaDescriptionIndex) {
+  const resolvedKey = resolveBigAreaDescriptionKey(label, bigAreaDescriptionIndex);
+  if (!resolvedKey) return undefined;
+  return bigAreaDescriptionIndex.get(resolvedKey);
+}
+
+function resolveBigAreaDescriptionKey(label, bigAreaDescriptionIndex) {
+  const candidates = [label, ...(BIG_AREA_DESCRIPTION_ALIASES[label] ?? [])];
+
+  for (const candidate of candidates) {
+    const normalizedCandidate = normalizeText(candidate);
+    if (bigAreaDescriptionIndex.has(normalizedCandidate)) {
+      return normalizedCandidate;
+    }
+  }
+
+  return undefined;
 }
 
 function resolveRelation(articleNode, externalArticles, relationIndex) {

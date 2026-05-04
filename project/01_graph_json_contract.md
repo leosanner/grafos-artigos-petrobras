@@ -35,6 +35,7 @@ Campos esperados:
 - `id`
 - `label`
 - `type`
+- `description`
 
 ### term
 Representa o termo principal específico associado aos artigos.

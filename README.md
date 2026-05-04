@@ -29,7 +29,7 @@ npm run sync:graph-metadata
 ```
 
 This command rebuilds the article relation pairs audit file and refreshes the enriched article metadata inside `public/graph_data.json`.
-It also merges `external_data/terms_node.json` into the graph term nodes, adding `description` and `reference`.
+It also merges `external_data/terms_node.json` into the graph term nodes, adding `description` and `reference`, and merges `external_data/areas_explanation.json` into the `big_area` nodes.
 
 ## Learn More
 

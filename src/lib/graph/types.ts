@@ -13,6 +13,7 @@ interface NodeBase {
 
 export interface BigAreaNode extends NodeBase {
   type: 'big_area';
+  description?: string;
 }
 
 export interface TermNode extends NodeBase {

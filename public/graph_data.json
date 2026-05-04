@@ -4,35 +4,40 @@
       "data": {
         "id": "bigarea-geotecnologias",
         "label": "Geotecnologias",
-        "type": "big_area"
+        "type": "big_area",
+        "description": "Uso de mapas digitais, SIG/GIS e geoprocessamento para organizar, cruzar e analisar informações ambientais em um território."
       }
     },
     {
       "data": {
         "id": "bigarea-inteligncia-artificial",
         "label": "Inteligência Artificial",
-        "type": "big_area"
+        "type": "big_area",
+        "description": "Uso de algoritmos para analisar grandes volumes de dados, reconhecer padrões, fazer classificações e apoiar previsões relacionadas ao meio ambiente."
       }
     },
     {
       "data": {
         "id": "bigarea-ferramentas-de-suporte-tomada-de-deciso",
         "label": "Ferramentas de Suporte à Tomada de Decisão",
-        "type": "big_area"
+        "type": "big_area",
+        "description": "Ferramentas e métodos que ajudam a comparar alternativas, organizar critérios e apoiar decisões técnicas no processo de avaliação ambiental."
       }
     },
     {
       "data": {
         "id": "bigarea-sensoriamento-remoto",
         "label": "Sensoriamento Remoto",
-        "type": "big_area"
+        "type": "big_area",
+        "description": "Uso de imagens de satélite, drones e outros sensores para observar o território e identificar mudanças no ambiente, como vegetação, uso do solo, corpos d’água e áreas sensíveis."
       }
     },
     {
       "data": {
         "id": "bigarea-abordagens-institucionais",
         "label": "Abordagens Institucionais",
-        "type": "big_area"
+        "type": "big_area",
+        "description": "Formas de organização, gestão e articulação entre instituições para melhorar o uso das informações, a transparência e a qualidade das decisões ambientais."
       }
     },
     {
