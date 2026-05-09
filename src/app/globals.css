@@ -95,6 +95,7 @@
   --hairline: rgba(20, 24, 27, 0.14);
   --accent-green: #006b39;
   --accent-yellow: #f1b500;
+  --accent-blue: #1f4f8f;
   --accent-red: #b03b2c;
   --shadow-hard: 6px 6px 0 0 var(--ink);
   --shadow-hard-sm: 3px 3px 0 0 var(--ink);
@@ -109,6 +110,7 @@
   --hairline: rgba(236, 232, 223, 0.16);
   --accent-green: #2aa56b;
   --accent-yellow: #ffd24a;
+  --accent-blue: #5b8fd1;
   --accent-red: #d46656;
 }
 
@@ -117,6 +119,128 @@ body {
   color: var(--ink);
   font-family: var(--font-plex-sans), system-ui, sans-serif;
   font-feature-settings: "ss01", "cv11";
+}
+
+/* ─── animated CTA ─────────────────────────────────────────── */
+
+@keyframes cta-led-pulse {
+  0%, 100% { transform: scale(1);   opacity: 1;   }
+  50%      { transform: scale(1.6); opacity: 0.55; }
+}
+
+@keyframes cta-led-ring {
+  0%   { transform: scale(0.6); opacity: 0.6; }
+  100% { transform: scale(2.4); opacity: 0;   }
+}
+
+.cta {
+  --cta-bg: var(--ink);
+  --cta-fg: var(--paper);
+  --cta-fill: var(--accent-green);
+  --cta-fill-fg: #ffffff;
+  --cta-shadow: var(--ink);
+  --cta-shadow-hover: var(--accent-green);
+
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.75rem;
+  padding: 0.95rem 1.5rem 0.95rem 1.5rem;
+  border: 1px solid var(--rule);
+  background: var(--cta-bg);
+  color: var(--cta-fg);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  box-shadow: 6px 6px 0 0 var(--cta-shadow);
+  transition: transform 220ms cubic-bezier(.2,.7,.2,1),
+              box-shadow 220ms cubic-bezier(.2,.7,.2,1),
+              color 260ms ease;
+}
+
+.cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--cta-fill);
+  transform: translateX(-101%) skewX(-14deg);
+  transform-origin: left center;
+  transition: transform 480ms cubic-bezier(.2,.7,.2,1);
+}
+
+.cta:hover { color: var(--cta-fill-fg); transform: translate(3px, 3px); box-shadow: 3px 3px 0 0 var(--cta-shadow-hover); }
+.cta:hover::before { transform: translateX(0) skewX(-14deg); }
+.cta:active { transform: translate(5px, 5px); box-shadow: none; }
+
+.cta-led {
+  position: relative;
+  width: 8px; height: 8px; border-radius: 999px;
+  background: var(--cta-led, var(--accent-yellow));
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.25);
+}
+.cta-led::after {
+  content: "";
+  position: absolute; inset: 0; border-radius: inherit;
+  background: var(--cta-led, var(--accent-yellow));
+  animation: cta-led-pulse 1.6s ease-in-out infinite;
+}
+.cta-led::before {
+  content: "";
+  position: absolute; inset: -2px; border-radius: inherit;
+  border: 1px solid var(--cta-led, var(--accent-yellow));
+  animation: cta-led-ring 1.6s ease-out infinite;
+}
+
+.cta-arrows {
+  position: relative;
+  width: 1.05rem; height: 1.05rem;
+  overflow: hidden;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 16px;
+  line-height: 1;
+}
+.cta-arrows > span {
+  position: absolute; inset: 0;
+  display: grid; place-items: center;
+  transition: transform 280ms cubic-bezier(.2,.7,.2,1);
+}
+.cta-arrows > span:nth-child(2) { transform: translateX(-110%); }
+.cta:hover .cta-arrows > span:nth-child(1) { transform: translateX(110%); }
+.cta:hover .cta-arrows > span:nth-child(2) { transform: translateX(0); }
+
+/* variants */
+.cta-primary {
+  --cta-bg: var(--accent-green);
+  --cta-fg: #0a0a0a;
+  --cta-fill: var(--accent-yellow);
+  --cta-fill-fg: #0a0a0a;
+  --cta-shadow: var(--ink);
+  --cta-shadow-hover: var(--accent-yellow);
+  --cta-led: var(--accent-yellow);
+}
+
+.cta-secondary {
+  --cta-bg: var(--paper);
+  --cta-fg: var(--ink);
+  --cta-fill: var(--accent-blue);
+  --cta-fill-fg: #ffffff;
+  --cta-shadow: var(--ink);
+  --cta-shadow-hover: var(--accent-blue);
+  --cta-led: var(--accent-blue);
+}
+
+.cta-ghost {
+  --cta-bg: var(--accent-blue);
+  --cta-fg: #ffffff;
+  --cta-fill: var(--accent-yellow);
+  --cta-fill-fg: #0a0a0a;
+  --cta-shadow: var(--ink);
+  --cta-shadow-hover: var(--accent-yellow);
+  --cta-led: var(--accent-yellow);
 }
 
 * {
