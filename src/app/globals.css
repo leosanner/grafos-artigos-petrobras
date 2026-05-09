@@ -81,14 +81,42 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-plex-sans), var(--font-geist-sans);
+  --font-mono: var(--font-plex-mono), var(--font-geist-mono);
+  --font-display: var(--font-display);
+}
+
+:root {
+  --ink: #14181b;
+  --ink-soft: #3a4148;
+  --paper: #f7f5f1;
+  --paper-strong: #efece5;
+  --rule: #14181b;
+  --hairline: rgba(20, 24, 27, 0.14);
+  --accent-green: #006b39;
+  --accent-yellow: #f1b500;
+  --accent-red: #b03b2c;
+  --shadow-hard: 6px 6px 0 0 var(--ink);
+  --shadow-hard-sm: 3px 3px 0 0 var(--ink);
+}
+
+.dark {
+  --ink: #ece8df;
+  --ink-soft: #b6b1a4;
+  --paper: #0d0f10;
+  --paper-strong: #16191a;
+  --rule: #ece8df;
+  --hairline: rgba(236, 232, 223, 0.16);
+  --accent-green: #2aa56b;
+  --accent-yellow: #ffd24a;
+  --accent-red: #d46656;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-plex-sans), system-ui, sans-serif;
+  font-feature-settings: "ss01", "cv11";
 }
 
 * {
