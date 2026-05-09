@@ -97,24 +97,30 @@ export default function Home() {
             </p>
 
             <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
-              <Link
-                href="/graph"
-                className="group inline-flex items-center justify-between gap-6 border border-[var(--rule)] bg-[var(--ink)] px-6 py-3.5 text-[13px] font-medium tracking-[0.04em] text-[var(--paper)] shadow-[var(--shadow-hard)] transition-all duration-200 hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-[3px_3px_0_0_var(--ink)] active:translate-x-[5px] active:translate-y-[5px] active:shadow-none"
-              >
-                <span>Abrir grafo interativo</span>
-                <span aria-hidden="true" className="text-[15px] transition-transform duration-200 group-hover:translate-x-0.5">
-                  →
+              <Link href="/graph" className="cta cta-primary">
+                <span className="inline-flex items-center gap-3">
+                  <span aria-hidden="true" className="cta-led" />
+                  Abrir grafo interativo
+                </span>
+                <span aria-hidden="true" className="cta-arrows">
+                  <span>→</span>
+                  <span>→</span>
                 </span>
               </Link>
+
               <a
                 href={products[0].href}
                 target="_blank"
                 rel="noreferrer"
-                className="group inline-flex items-center justify-between gap-6 border border-[var(--rule)] bg-transparent px-6 py-3.5 text-[13px] font-medium tracking-[0.04em] text-[var(--ink)] transition-colors hover:bg-[var(--paper-strong)]"
+                className="cta cta-secondary"
               >
-                <span>Ver produtos publicados</span>
-                <span aria-hidden="true" className="text-[15px] transition-transform duration-200 group-hover:translate-x-0.5">
-                  ↗
+                <span className="inline-flex items-center gap-3">
+                  <span aria-hidden="true" className="cta-led" />
+                  Ver produtos publicados
+                </span>
+                <span aria-hidden="true" className="cta-arrows">
+                  <span>↗</span>
+                  <span>↗</span>
                 </span>
               </a>
             </div>
@@ -268,12 +274,15 @@ export default function Home() {
               produtos publicados.
             </p>
             <div className="mt-9">
-              <Link
-                href="/graph"
-                className="group inline-flex items-center gap-5 border border-[var(--rule)] bg-[var(--paper)] px-5 py-3 text-[13px] font-medium tracking-[0.04em] text-[var(--ink)] transition-colors hover:bg-[var(--ink)] hover:text-[var(--paper)]"
-              >
-                Entrar no grafo
-                <span aria-hidden="true" className="text-[15px] transition-transform group-hover:translate-x-0.5">→</span>
+              <Link href="/graph" className="cta cta-ghost">
+                <span className="inline-flex items-center gap-3">
+                  <span aria-hidden="true" className="cta-led" />
+                  Entrar no grafo
+                </span>
+                <span aria-hidden="true" className="cta-arrows">
+                  <span>→</span>
+                  <span>→</span>
+                </span>
               </Link>
             </div>
           </div>
